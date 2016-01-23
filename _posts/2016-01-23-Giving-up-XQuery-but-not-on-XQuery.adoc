@@ -1,1 +1,6 @@
-= Giving up @XQuery
+= Giving up @XQuery, but not on XQuery
+
+Enough folks have asked me the question
+
+_italic_ Why did you give away your @XQuery handle _italic_
+
