@@ -17,7 +17,7 @@ Last year I wanted to invest some time refreshing myself in c/cplusplus++11/14 w
 
 === XQuery is my language of choice
 
-At my http://developer.marklogic.com[day job] I sling XQuery all day, every day - I feel very lucky to be able to work on something that also happens to be one of my passion and I hope that remains the same for many years to come.
+At my http://developer.marklogic.com[day job] I sling XQuery all day, every day - I feel very lucky to be able to work on something that also happens to be one of my passions and I hope that remains the same for many years to come.
 
 Latest versions of the language (https://www.w3.org/TR/xquery-31/[XQuery 3.1]) make me even more excited for its future (maps/arrays, annotations and even the humble arrow operator).
 
