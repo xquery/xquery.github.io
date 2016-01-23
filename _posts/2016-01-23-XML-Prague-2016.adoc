@@ -1,0 +1,30 @@
+= XML Prague 2016
+
+
+It does not seem possible that this is the http://www.xmlprague.cz/archive/[10th version] of http://www.xmlprague.cz/[XML Prague], but yes once again XML Prague 2016 is about to come to my domicile, giving me a chance to learn from many respected practioners in the industry.
+
+Over the decade I've stepped back from helping out organising the event and I personally think http://twitter.com/jirkakosek[Jirka Kosek] does a much better job at pulling off the impossible balancing act of keeping things smoothly running and getting the absolute highest quality speakers talking about interesting (and sometimes surprising) topics. 
+
+My request to anyone attending this year is to give Jirka thanks for getting to this rare milestone ( bring him a small token from lands afar) - I know I will be buying him a beer !
+
+This years talks promise much cranial stimulation:
+
+* _Transforming JSON using XSLT 3.0_, Michael Kay, Saxonica
+* _Schematron QuickFix – a simple language to specify the actions that will be used to fix the Schematron detected issues, layered on top of XPath and XSLT, and integrated within Schematron schemas through the annotation support_, Octavian Nadolu, Syncro Soft and Nico Kutscherauer, data2type GmbH
+* _The Power of Promises and Parallel XQuery Execution_, James Wright
+* _Subjugating Data Flow Programming_, Alex Miłowski and Norman Walsh, MarkLogic
+* _Define and Conquer – Using Semantic XML for Functional Software Specifications_, Patrik Stellmann, GDV DL
+* _From XML to RDF step by step: approaches for leveraging XML workflows with linked data_, Marta Borriello, Vistatec, Christian Dirschl, Wolters Kluwer Deutschland GmbH, Axel Polleres, Vienna University of Economics and Business (WU), Phil Ritchie, Vistatec, Frank Salliau, iMinds, Felix Sasaki, DFKI / W3C Fellow, Giannis Stoitsis, Agro-Know
+* _Standards update: EPUB 3.1_, Romain Deltour, DAISY
+* _Extending CSS with XSL-FO, XSL-FO with CSS_, Tony Graham, Antenna House
+* _Validating office documents in the publishing production workflow_, Andrew Sales, Andrew Sales Digital Publishing Limited
+* _Virtual Document Management_, Ari Nordström, Creative Words
+* _Entities and Relationships in a Document Database_, Charles Greer, MarkLogic
+* _Data Just Wants to Be Format-Neutral_, Steven Pemberton, CWI
+* _Accessible EPUB: let’s do it!_, Romain Deltour, DAISY
+
+With a slightly different format, starting with preconference day on Thursday, a full day of talks Friday and half day Saturday I really like this new format as people can experience more of the city and the possibility of celebrating Valentine's day.
+
+I'm trying to jam out a version of RXQ to release during the conference ... what software or ideas are you bringing ? http://www.xmlprague.cz/conference-registration/[Register now] !
+
+http://lanyrd.com/2016/xmlprague/[Here is the XML Prague lanyrd page]
