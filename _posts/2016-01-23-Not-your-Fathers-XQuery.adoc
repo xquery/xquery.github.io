@@ -1,13 +1,23 @@
 = Not your Father's XQuery
 
-Last year, I embarressed myself by losing patience with someone who I believed was blindly slagging off XSLT. What the individual did not realise was that they were talking about an ancient version of XSLT ... though how the notion got embedded in that form when he was playing with toy guns ? We can partially blame browser support for that (almost to the point where I think we should lobby for XSLT 1.0 removal from browsers!). If javascript v1.0 was still used in the browser I doubt it would enjoy the broad usage it has today. 
+Last year, I embarrassed myself by losing patience with someone who I believed was blindly slagging off XSLT. 
 
-Then I came to another conclusion that I've not been so charitable with younger programmers ... not nearly as charitable as older programmers were with me when I was first learning the trade. The rate of change in our industry is ridiculous and expecting newcomers to have all the context in 'RAM' is quite impossible.
+What the unnamed individual did not realise was that they were talking about an ancient version of https://www.w3.org/TR/xslt[XSLT]. We can partially blame browser built in support of v1.0 (almost to the point where I think we should lobby for XSLT 1.0 removal from all browsers!). Even with the existance of the excellent http://www.saxonica.com/ce/index.xml[SAXON-CE XSLT v2.0] implementation for the browser, its hard to get folks to take another look at XSLT in browser context (that won't stop me from using it!). If javascript v1.0 was still used in the browser I doubt it would enjoy the broad acceptance it has today.
 
-I can see a similar situation with XQuery emerging where developers initial contact with the language may have been with XQuery v1.0 and shorn of any context think of it as a limited language meant only for querying XML. You only need to read current posts of how to use XQuery in database offerings from Oracle of Microsoft to travel back in time.
+I've not been as charitable with younger programmers as older programmers were with me when I was first learning the trade. The rate of change in our industry is ridiculous and expecting newcomers to have all the context about any particular programming language is quite impossible. Clearly the onus is upon those with 'context' to communicate what a programming language is today.
+
+XQuery is experiencing a similar scenario where developers form an initial opinion of XQuery based on v1.0 of the language. 
+
+To feel like you are travelling back in time (or to another universe) just take a look at how xquery gets used in any of http://www.oracle.com/technetwork/database-features/xmldb/index-087544.html[Oracle] or http://beyondrelational.com/modules/2/blogs/28/posts/10279/xquery-labs-a-collection-of-xquery-sample-scripts.aspx[Microsoft's] database offerings. When I look at XQuery examples in those environments my eyes get blurry and I feel light headed.
+
+Anyone using XQuery in those environments would conclude XQuery is:
+
+* only for querying XML
+* an unweildy addon to much simpler SQL
+* hardly a programming language
 
 
-== XQuery 1.0 (circa 1999)
+== XQuery 1.0 (circa 2010)
 
 https://www.w3.org/TR/xquery/
 
