@@ -5,7 +5,7 @@ A surprising number of people have asked me the question:
 _'Why did you give up the @XQuery twitter account ?'_
 
 
-So many that maybe I should reiterate the reasons why here.
+So many that I should reiterate the reasons why here.
 
 
 === Time and space 
