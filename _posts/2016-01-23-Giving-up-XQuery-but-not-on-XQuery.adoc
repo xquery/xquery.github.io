@@ -43,4 +43,4 @@ Doing a regular moral inventory of what open software projects I work on allows 
 
 http://twitter.com/joewiz[@joewiz] stewardship of http://twitter.com/XQuery[@XQuery] has surpassed my paltry efforts and does a great job at being focused on xquery.
 
-I would heartedly reccomend you follow http://twitter.com/XQuery[@XQuery] and contribute in the discussion.
+I would heartedly recommend you follow http://twitter.com/XQuery[@XQuery] and contribute in the discussion.
