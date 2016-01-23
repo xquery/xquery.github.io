@@ -1,33 +1,95 @@
 = Not your Father's XQuery
 
 
-XQuery 1.0
+== XQuery 1.0
+
 https://www.w3.org/TR/xquery/
 
 
-XQuery 3.0
+== XQuery 3.0
+
 https://www.w3.org/TR/xquery-30/
 
+=== Ease of use
 
+Some of the new features like:
+
+* try/catch 
+* string concat with ||
+* mapping operator ! for simple for expressions
+* count clause in FLWOR Expressions
+* Switch expressions
+* Computed namespace constructors
+* Output declarations
+
+are aimed at making the language easier formalising many common extensions found in the wild.
+
+=== Selection
 
 group by clause in FLWOR Expressions (3.10.7 Group By Clause).
 tumbling window and sliding window in FLWOR Expressions (3.10.4 Window Clause).
-count clause in FLWOR Expressions (3.10.6 Count Clause).
-allowing empty in 3.10.2 For Clause, for functionality similar to outer joins in SQL.
-try/catch expressions (3.15 Try/Catch Expressions).
-Dynamic function call (3.2.2 Dynamic Function Call ).
-Inline function expressions (3.1.7 Inline Function Expressions).
-Private functions (4.18 Function Declaration).
-Switch expressions (3.13 Switch Expression).
-Computed namespace constructors (3.9.3.7 Computed Namespace Constructors).
-Output declarations (2.2.4 Serialization).
-Annotations (4.15 Annotations).
-Function assertions in function tests.
-A string concatenation operator (3.6 String Concatenation Expressions).
-A mapping operator (3.17 Simple map operator (!)).
+
+=== Functions, functions, functions
+
+let $sq :=
+ function($i as xs:integer) as xs:integer {
+ $i * $i
+ }
+Inline functions are expressions and can
+appear anywhere an expression is allowed.
+
+Function literals:
+– fn:abs#1, fn:max#2, my:func#3
+● Partial application (currying):
+– string-join(?, ', ')
+– contains(?, ?, 'http://collation/case-blind')
+● Run-time discovery:
+– function-lookup($name, $arity)
+
+Functions that take functions
+as an argument
+● fn:filter($function, $sequence)
+● fn:map($function, $sequence)
+● fn:map-pairs($function, $seq1, $seq2)
+● fn:fold-left($function, $initial, $sequence)
+● fn:fold-right($function, $initial, $sequence)
+
+Properties of functions
+● function-name($function)
+● function-arity($function)
+
+Use cases for higher-order
+functions
+● Dynamic despatch mechanism
+– alternative to XSLT template rules
+– substitute for polymorphism
+● Overcome limitations of XDM type system
+● Reusable algorithms such as detection of
+cycles in a graph
+● Reduce the need to write simple things
+using recursion
+
+
+=== Annotations
+
+=== The Rest
+
+Other new functions
+* trig/math functions: sin(), cos(), sqrt() etc
+* analyze-string()
+* format-date(), format-number(), generateid(),
+unparsed-text() etc
+– moved from XSLT to common library
+* head(), tail(), path()
+* environment-variable(), uri-collection()
+* parse(), serialize()
+* Function assertions in function tests.
 
 
 
 
-XQuery 3.1
+== XQuery 3.1
+
 https://www.w3.org/TR/xquery-31/
+
+maps
