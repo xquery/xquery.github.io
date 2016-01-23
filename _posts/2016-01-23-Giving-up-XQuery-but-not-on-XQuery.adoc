@@ -31,9 +31,9 @@ At my http://developer.marklogic.com[day job] I sling XQuery all day, every day 
 
 Latest versions of the language (https://www.w3.org/TR/xquery-31/[XQuery 3.1]) make me even more excited for its future (maps/arrays, annotations and even the humble arrow operator).
 
-That being from time to time I find myself 'looking over the fence' at other programming languages. Like many programmers, I've always worked in a few languages, here's my list of languages that I am uptodate on (though not an expert!): XQuery, Java, python, c, javascript, emacs lisp and Perl(6). Sometimes I've had to learn them out of some short term need, sometimes my curiosity (or boredeom) inspires me to learn more. 
+I hope others will not begrudge me from 'looking over the fence' at other programming languages. Like many programmers, I've always worked in a few languages, here's my list of languages that I am uptodate on (though not an expert!): XQuery, Java, python, c, javascript, emacs lisp and Perl(6). Sometimes I've had to learn them out of some short term need, sometimes my curiosity (or boredeom) inspires me to learn more. 
 
-For example, a few months ago when using https://www.docker.com/[docker] I wondered why things were so fast in a certain situation; docker is written in Go and I learned that maps in Go are not thread safe (!) which was answer enough for this newbie but asking that question led me to the definition of   https://gobyexample.com/goroutines[goroutines] which are interesting grist for the concurrency mill. 
+For example, a few months ago when using https://www.docker.com/[docker] I wondered why things were so fast in a certain situation; docker is written in Go and I learned that maps in Go are not thread safe (!) which was answer enough for this newbie but asking that question led me to the definition of   https://gobyexample.com/goroutines[goroutines] which are interesting grist for the concurrency mill. This kind of 'thigh bone is connected to the leg bone' research is probably not the most efficient, but motivating nevertheless.
 
 So while I think its important to avoid becoming a http://blog.codinghorror.com/the-magpie-developer/[magpie developer] that doesn't mean we should avoid regular small investigations in other languages. 
 
