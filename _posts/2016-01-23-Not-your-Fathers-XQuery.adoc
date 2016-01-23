@@ -56,14 +56,20 @@ The spec circa 2010
 https://www.w3.org/TR/xquery/
 
 
+=== What is XQuery 1.1 ?
+
+
+
 === What is XQuery 2.0 ?
 
+The WG decided to skip this version number to align to XSLT v3.0.
 
 
 === What is XQuery 3.0 ?
 
 circa 2014
 https://www.w3.org/TR/xquery-30/
+
 
 ==== Ease of use
 
@@ -149,9 +155,13 @@ circa 2016
 
 https://www.w3.org/TR/xquery-31/
 
-* maps
-* arrays
-* string constructors
+==== maps
+
+==== arrays
+
+==== string constructors
+
+==== The Rest
 
 are being proposed to be added to the language
 
