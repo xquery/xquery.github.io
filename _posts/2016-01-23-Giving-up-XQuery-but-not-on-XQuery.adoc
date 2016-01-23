@@ -12,7 +12,7 @@ So many that I should reiterate the reasons why here.
 
 Admittedly, it takes very little time to maintain any twitter account. Even so every year I do a 'spring cleaning' (sic: in January) and reallocate my time commitments. However big or small I make a list of my commitments then decide where I would like to spend my open source time as contrasted to everything else I do (Life, Work, etc). I did a similar reorg 5+ years ago when I moved from working solely in XSLT to XQuery; though in that instance I stopped trying to teach others of the wonders of XSLT - much easier for programmers to grok XQuery (though I use XSLT often and very much enjoy it).
 
-Last year I wanted to invest some time refreshing myself in c/cplusplus++11/14 which makes c/cplusplus interesting again (CLANG, llvm, fp). Breaking off this 'rust' lets me efficiently apply some ideas to some new open source projects as well as learn from other genius works (http://xqilla.sourceforge.net/HomePage[XQilla], etc).
+Last year I wanted to invest some time refreshing myself in c/cplusplus11/14 which makes c/cplusplus interesting again (CLANG, llvm, fp). Breaking off this 'rust' lets me efficiently apply some ideas to some new open source projects as well as learn from other genius works (http://xqilla.sourceforge.net/HomePage[XQilla], etc).
 
 This year my focus is on:
 
@@ -31,7 +31,7 @@ At my http://developer.marklogic.com[day job] I sling XQuery all day, every day 
 
 Latest versions of the language (https://www.w3.org/TR/xquery-31/[XQuery 3.1]) make me even more excited for its future (maps/arrays, annotations and even the humble arrow operator).
 
-I hope others will not begrudge me from 'looking over the fence' at other programming languages. Like many programmers, I've always worked in a few languages, here's my list of languages that I am uptodate on (though not an expert!): XQuery, Java, python, c, javascript, emacs lisp and Perl(6). Sometimes I've had to learn them out of some short term need, sometimes my curiosity (or boredeom) inspires me to learn more. 
+I hope others will not begrudge me for 'looking over the fence' at other programming languages. Like many programmers, I've always worked in a few languages, here's my list of languages that I am uptodate on (though not an expert!): XQuery, Java, python, c, javascript, emacs lisp and Perl(6). Sometimes I've had to learn them out of some short term need, sometimes my curiosity (or boredom) inspires me to learn more. 
 
 For example, a few months ago when using https://www.docker.com/[docker] I wondered why things were so fast in a certain situation; docker is written in Go and I learned that maps in Go are not thread safe (!) which was answer enough for this newbie but asking that question led me to the definition of   https://gobyexample.com/goroutines[goroutines] which are interesting grist for the concurrency mill. This kind of 'thigh bone is connected to the leg bone' research is probably not the most efficient, but motivating nevertheless.
 
@@ -53,6 +53,6 @@ We should embrace diversity in programming and shudder at a future which espouse
 
 === @XQuery is in good hands
 
-http://twitter.com/joewiz[@joewiz] stewardship of http://twitter.com/XQuery[@XQuery] has far surpassed my paltry efforts and does he a great job at being focused on xquery.
+http://twitter.com/joewiz[@joewiz] stewardship of http://twitter.com/XQuery[@XQuery] has far surpassed my paltry efforts and he does a great job at being focused on xquery.
 
 I would heartedly recommend you follow http://twitter.com/XQuery[@XQuery] and contribute in the discussion.
