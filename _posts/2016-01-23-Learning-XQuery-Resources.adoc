@@ -1,0 +1,22 @@
+= Learning XQuery Resources
+
+a list of resources to learn XQuery 
+
+* download an XQuery processor (http://www.saxonica.com/welcome/welcome.xml[Saxon], http://xqilla.sourceforge.net/HomePage[XQilla], http://www.zorba.io/[Zorba])
+* download a database that supports XQuery and start learning (http://developer.marklogic.com[MarkLogic], http://exist-db.org/exist/apps/homepage/index.html[exist DB], http://basex.org/[basex])
+
+* follow http://twitter.com/xquery[@XQuery]
+
+* goto great conferences (http://www.xmlprague.cz[XML Prague], http://xmllondon.com[XML London], http://www.xmlamsterdam.com/[XML Amsterdam], http://xmlsummerschool.com/[XML Summer School], http://balisage.net[Balisage])
+
+* http://www.marklogic.com/training-courses/developing-marklogic-applications-i-xquery/[free training !] at MarkLogic University
+
+* http://x-query.com/pipermail/talk/ [xquery mailing list]
+
+* http://stackoverflow.com/questions/tagged/xquery[XQuery at StackOverflow]
+
+
+* http://www.amazon.com/XQuery-Search-Across-Variety-Data/dp/1491915102/ref=sr_1_1?s=books&ie=UTF8&qid=1453555256&sr=1-1&keywords=xquery[ Priscilla Walmsley's excellant uptodate book  'XQuery: Search Across a Variety of XML Data']
+
+
+give me a shout (http://twitter.com/_james_fuller[@_james_fuller]) if you want me to add anything.
