@@ -1,6 +1,54 @@
 = Giving up @XQuery, but not on XQuery
 
-Enough folks have asked me the question
+A surprising number of people have asked me the question:
 
-'Why did you give up the @XQuery twitter account ?'
+_'Why did you give up the @XQuery twitter account ?'_
 
+
+So many that maybe I should reiterate the reasons why here.
+
+
+=== Time and space 
+
+Admittedly, it takes very little time to maintain any twitter account. Even so every year I do a 'spring cleaning' (sic: in January) and reallocate my time commitments. However big or small I make a list of my commitments then decide where I would like to spend my open source time as contrasted to everything else I do (Life, Work, etc).
+
+Last year I wanted to invest some time refreshing myself in c/c++11/14 which makes c/c++ interesting again (CLANG, llvm, fp). Breaking off this 'rust' lets me efficiently apply some ideas to some new open source projects as well as learn of the genius in other projects (XQilla, etc).
+
+
+=== XQuery is my language of choice
+
+At my day job (MarkLogic) I sling XQuery every day - I feel lucky to be able to work on something that is also my passion and I hope that remains the same for many years to come.
+
+Latest versions of the language (XQuery 3.1 link) make me even more excited for its future (maps/arrays, annotations and even the humble arrow operator).
+
+That being said I sometimes find myself 'looking over the fence' at other programming languages.
+
+Like many programmers, I've always worked in a few languages, here's my list of languages that I am uptodate on (though not an expert!):
+
+* XQuery
+* Java
+* python
+* c
+* javascript
+* emacs lisp
+* Perl
+
+Sometimes I've had to learn them out of some short term need, sometimes my curiosity (or boredeom) inspires me to learn more. 
+
+I think its important to avoid becoming a magpie developer ( http://blog.codinghorror.com/the-magpie-developer/) but that doesn't mean we should avoid regular small investigations in other languages. Many of the good things that have happened to me in programming often were preceded by these 'little investigations'. 
+
+Lastly, learning idioms or better ways to do something in one language can help you become a better programmer in another.
+
+
+=== Avoiding sentimentality in software 
+
+If you work long enough in the software industry eventually you will experience the thrill of your favourite language coming into favour as well as the despair when it falls out.
+
+Doing a moral inventory of what open software projects I am working on lets me gauge sentimality - holding onto 'precious' because of previous commitment sunk in
+
+
+I transferred the @XQuery twitter account to the very able @joewiz - I did so with 
+
+=== @XQuery is in good hands
+
+@joewiz stewardship of @XQuery has already surpassed my paltry efforts. 
