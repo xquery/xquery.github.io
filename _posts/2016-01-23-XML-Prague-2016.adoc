@@ -25,6 +25,6 @@ This years talks promise much cranial stimulation:
 
 With a slightly different format, starting with preconference day on Thursday, a full day of talks Friday and half day Saturday I really like this new format as people can experience more of the city and the possibility of celebrating Valentine's day.
 
-I'm trying to jam out a version of RXQ to release during the conference ... what software or ideas are you bringing ? http://www.xmlprague.cz/conference-registration/[Register now] !
+I'm trying to jam out a version of https://github.com/xquery/rxq[RXQ] to release during the conference ... what software or ideas are you bringing ? http://www.xmlprague.cz/conference-registration/[Register now] !
 
 http://lanyrd.com/2016/xmlprague/[Here is the XML Prague lanyrd page]
