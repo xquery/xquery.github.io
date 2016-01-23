@@ -8,23 +8,31 @@ Even with the existance of the excellent http://www.saxonica.com/ce/index.xml[SA
 
 I've not been as charitable with younger programmers as older programmers were with me when I was first learning the trade. The rate of change in our industry is ridiculous and expecting newcomers to have all the context about any particular programming language is quite impossible. Clearly the onus is upon those with 'context' to communicate what a programming language is today.
 
-XQuery is experiencing a similar scenario where developers form an initial opinion of XQuery based on v1.0 of the language. 
+XQuery is undergoing a similar situation where developers form an opinion of XQuery based on v1.0 of the language. 
 
 To feel like you are travelling back in time (or to another universe) just take a look at how xquery gets used in any of http://www.oracle.com/technetwork/database-features/xmldb/index-087544.html[Oracle] or http://beyondrelational.com/modules/2/blogs/28/posts/10279/xquery-labs-a-collection-of-xquery-sample-scripts.aspx[Microsoft's] database offerings. When I look at XQuery examples in those environments my eyes get blurry and I feel light headed.
 
-Anyone using XQuery in those environments would conclude XQuery is:
+What is even more interesting is that there has been recent work in XQuery, for example there are some XQuery 3.0 functionality listed in Oracle documentation for https://docs.oracle.com/cd/E49465_01/doc.23/e49333/oxh.htm#BDCUG541['Oracle XQuery for Hadoop']. How a developer could ever find this out without digging (as I did) I do not know.  
+
+To summarise, anyone using XQuery in those environments would conclude XQuery is:
 
 * only for querying XML
 * an unweildy addon to much simpler SQL
-* not an elegant functional programming language
+* not an elegant programming language
+* stale eg. developed in the previous decade
 
-The newer XQuery specs do a great job at listing out 'whats new'.
+As a daily user of modern XQuery, the most exciting and defining characteristics of XQuery are what has happened over the past couple of years. We should try to clarify what XQuery is today.
+
+The newer XQuery specs do a surprisingly clear job at listing out 'whats new'.
 
 * https://www.w3.org/TR/xquery-30/[XQuery 3.0 Specification]
 
 * https://www.w3.org/TR/xquery-31/[XQuery 3.1 Specification ]
 
-And there have been many good presentations about it
+And there have been many good presentations:
+
+
+
 
 
 === What is XQuery today ?
@@ -35,18 +43,29 @@ _XQuery is a query and functional programming language that queries and transfor
 
 Even this definition is a bit out of date, as the latest specification (https://www.w3.org/TR/xquery-31/[XQuery v3.1]) which is a W3C Candidate Recommendation adds https://www.w3.org/TR/2015/CR-xquery-31-20151217/#id-maps[maps], https://www.w3.org/TR/2015/CR-xquery-31-20151217/#id-arrays[arrays] and https://www.w3.org/TR/2015/CR-xquery-31-20151217/#id-string-constructors[string constructors] to the language making it very easy to work with other formats like JSON.  
 
+So what does modern XQuery look like ?
+
+```
+```
 
 
-===  What is XQuery 1.0 (circa 2010)
 
+===  What is XQuery 1.0 ?
+
+The spec circa 2010
 https://www.w3.org/TR/xquery/
 
 
-=== What is XQuery 3.0 (circa )
+=== What is XQuery 2.0 ?
 
+
+
+=== What is XQuery 3.0 ?
+
+circa 2014
 https://www.w3.org/TR/xquery-30/
 
-=== Ease of use
+==== Ease of use
 
 Some of the new features like:
 
@@ -60,12 +79,12 @@ Some of the new features like:
 
 are aimed at making the language easier formalising many common extensions found in the wild.
 
-=== Selection
+==== Selection
 
 group by clause in FLWOR Expressions (3.10.7 Group By Clause).
 tumbling window and sliding window in FLWOR Expressions (3.10.4 Window Clause).
 
-=== Functions, functions, functions
+==== Functions, functions, functions
 
 let $sq :=
  function($i as xs:integer) as xs:integer {
@@ -106,9 +125,9 @@ cycles in a graph
 using recursion
 
 
-=== Annotations
+==== Annotations
 
-=== The Rest
+==== The Rest
 
 Other new functions
 * trig/math functions: sin(), cos(), sqrt() etc
@@ -124,9 +143,15 @@ unparsed-text() etc
 
 
 
-== XQuery 3.1 (circa 2016)
+=== What is XQuery 3.1 ?
+
+circa 2016
 
 https://www.w3.org/TR/xquery-31/
 
-maps are being proposed to be added to the language
+* maps
+* arrays
+* string constructors
+
+are being proposed to be added to the language
 
