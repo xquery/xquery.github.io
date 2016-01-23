@@ -35,22 +35,24 @@ I hope others will not begrudge me from 'looking over the fence' at other progra
 
 For example, a few months ago when using https://www.docker.com/[docker] I wondered why things were so fast in a certain situation; docker is written in Go and I learned that maps in Go are not thread safe (!) which was answer enough for this newbie but asking that question led me to the definition of   https://gobyexample.com/goroutines[goroutines] which are interesting grist for the concurrency mill. This kind of 'thigh bone is connected to the leg bone' research is probably not the most efficient, but motivating nevertheless.
 
-So while I think its important to avoid becoming a http://blog.codinghorror.com/the-magpie-developer/[magpie developer] that doesn't mean we should avoid regular small investigations in other languages. 
+So while I think its important to avoid becoming a http://blog.codinghorror.com/the-magpie-developer/[magpie developer] that doesn't mean we should avoid regular small investigations into other languages. Many of the good things that have happened to me in programming often were preceded by 'little investigations' though its important to learn how to timebox your efforts! 
 
-Many of the good things that have happened to me in programming often were preceded by 'little investigations' though its important to learn how to timebox your efforts! 
-
-Lastly, learning idioms or better ways to do something in one language often help one become a better programmer in another.
+Lastly, learning idioms or better ways to do something in one language often help me become a better programmer in another.
 
 
 === Avoiding sentimentality in software 
 
-If you work long enough in the software industry eventually you will experience the thrill of your favourite language coming into favour as well as the despair when it falls out.
+If you work long enough in the software industry eventually you will https://en.wikipedia.org/wiki/Measuring_programming_language_popularity[experience] the thrill of your favourite language coming into favour as well as the despair when it falls out.
 
-Doing a regular moral inventory of what open software projects I work on allows me to gauge sentimality - holding onto 'precious' only because of previous commitment sunk can be a sign that you are in an evolutionary 'dead end'. I do not think this is the case with XQuery, yes its a boutique language that works within the XML technology stack, but it also plays nice with text and now with other data formats (json, semantics, etc...). I believe we should embrace diversity in programming and shudder at a future where we have a single paradigm for expression.
+Doing a regular moral inventory of what open software projects I work on allows me to gauge sentimality - holding onto 'precious' only because of previous commitment sunk can be a sign that you are in an evolutionary 'dead end'. 
+
+I do not think XQuery is a waste of time, I do believe we are entering an era of 'boutique' languages and we all learn a lot more DSL's to get work done. XQuery represents a sweet spot in terms of data model, functional programming and good fun.
+
+We should embrace diversity in programming and shudder at a future which espouses a single paradigm for expression.
 
 
 === @XQuery is in good hands
 
-http://twitter.com/joewiz[@joewiz] stewardship of http://twitter.com/XQuery[@XQuery] has surpassed my paltry efforts and does a great job at being focused on xquery.
+http://twitter.com/joewiz[@joewiz] stewardship of http://twitter.com/XQuery[@XQuery] has far surpassed my paltry efforts and does he a great job at being focused on xquery.
 
 I would heartedly recommend you follow http://twitter.com/XQuery[@XQuery] and contribute in the discussion.
