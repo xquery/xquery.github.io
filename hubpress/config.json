@@ -1,10 +1,1 @@
-{
-  "meta": {
-    "username": "xquery",
-    "repositoryName": "xquery.github.io",
-    "branch": "master"
-  },
-  "theme": {
-    "name": "Casper"
-  }
-}
+{"meta":{"username":"xquery","repositoryName":"xquery.github.io","branch":"master"},"site":{"url":"https://xquery.github.io"},"socialnetwork":{"twitter":"_james_fuller"},"theme":{"name":"Casper","url":"//xquery.github.io/themes/Casper"}}
