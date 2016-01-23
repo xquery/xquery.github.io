@@ -10,9 +10,19 @@ So many that I should reiterate the reasons why here.
 
 === Time and space 
 
-Admittedly, it takes very little time to maintain any twitter account. Even so every year I do a 'spring cleaning' (sic: in January) and reallocate my time commitments. However big or small I make a list of my commitments then decide where I would like to spend my open source time as contrasted to everything else I do (Life, Work, etc). I did a similar 5+ years ago when I moved from working solely in XSLT to XQuery; though in that instance I stopped trying to teach others of the wonders of XSLT - much easier for programmers to grok XQuery (though I use XSLT often and very much enjoy it).
+Admittedly, it takes very little time to maintain any twitter account. Even so every year I do a 'spring cleaning' (sic: in January) and reallocate my time commitments. However big or small I make a list of my commitments then decide where I would like to spend my open source time as contrasted to everything else I do (Life, Work, etc). I did a similar reorg 5+ years ago when I moved from working solely in XSLT to XQuery; though in that instance I stopped trying to teach others of the wonders of XSLT - much easier for programmers to grok XQuery (though I use XSLT often and very much enjoy it).
 
 Last year I wanted to invest some time refreshing myself in c/cplusplus++11/14 which makes c/cplusplus interesting again (CLANG, llvm, fp). Breaking off this 'rust' lets me efficiently apply some ideas to some new open source projects as well as learn from other genius works (http://xqilla.sourceforge.net/HomePage[XQilla], etc).
+
+This year my focus is on:
+
+* xproc v2 processor - this work is related to the new version of XProc
+
+* xquery- updating https://github.com/xquery/rxq[RXQ] an implementation of http://exquery.github.io/exquery/exquery-restxq-specification/restxq-1.0-specification.html[RESTXQ] for MarkLogic
+
+* genetic algorithm - I will continue doing the work I started many moons ago ... maybe this year will result in released 'bits' but as ever no promises made.
+
+and whatever else may distract me.
 
 
 === XQuery is my language of choice
