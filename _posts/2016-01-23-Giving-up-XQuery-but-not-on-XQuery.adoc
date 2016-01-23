@@ -12,47 +12,35 @@ So many that maybe I should reiterate the reasons why here.
 
 Admittedly, it takes very little time to maintain any twitter account. Even so every year I do a 'spring cleaning' (sic: in January) and reallocate my time commitments. However big or small I make a list of my commitments then decide where I would like to spend my open source time as contrasted to everything else I do (Life, Work, etc).
 
-Last year I wanted to invest some time refreshing myself in c/c/++11/14 which makes c/c++ interesting again (CLANG, llvm, fp). Breaking off this 'rust' lets me efficiently apply some ideas to some new open source projects as well as learn from other works (http://xqilla.sourceforge.net/HomePage[XQilla], etc).
+Last year I wanted to invest some time refreshing myself in c/cplusplus++11/14 which makes c/cplusplus interesting again (CLANG, llvm, fp). Breaking off this 'rust' lets me efficiently apply some ideas to some new open source projects as well as learn from other genius works (http://xqilla.sourceforge.net/HomePage[XQilla], etc).
 
 
 === XQuery is my language of choice
 
-At my http://developer.marklogic.com[day job] I sling XQuery every day, all day - I feel very lucky to be able to work on something that also happens to be one of my passion and I hope that remains the same for many years to come.
+At my http://developer.marklogic.com[day job] I sling XQuery all day, every day - I feel very lucky to be able to work on something that also happens to be one of my passion and I hope that remains the same for many years to come.
 
 Latest versions of the language (https://www.w3.org/TR/xquery-31/[XQuery 3.1]) make me even more excited for its future (maps/arrays, annotations and even the humble arrow operator).
 
-That being said I sometimes find myself 'looking over the fence' at other programming languages.
+That being from time to time I find myself 'looking over the fence' at other programming languages. Like many programmers, I've always worked in a few languages, here's my list of languages that I am uptodate on (though not an expert!): XQuery, Java, python, c, javascript, emacs lisp and Perl(6). Sometimes I've had to learn them out of some short term need, sometimes my curiosity (or boredeom) inspires me to learn more. 
 
-Like many programmers, I've always worked in a few languages, here's my list of languages that I am uptodate on (though not an expert!):
+For example, a few months ago when using https://www.docker.com/[docker] I wondered why things were so fast in a certain situation; docker is written in Go and I learned that maps in Go are not thread safe (!) which was answer enough for this newbie but asking that question led me to the definition of   https://gobyexample.com/goroutines[goroutines] which are interesting grist for the concurrency mill. 
 
-* XQuery
-* Java
-* python
-* c
-* javascript
-* emacs lisp
-* Perl
+So while I think its important to avoid becoming a http://blog.codinghorror.com/the-magpie-developer/[magpie developer] that doesn't mean we should avoid regular small investigations in other languages. 
 
-Sometimes I've had to learn them out of some short term need, sometimes my curiosity (or boredeom) inspires me to learn more. 
+Many of the good things that have happened to me in programming often were preceded by 'little investigations' though its important to learn how to timebox your efforts. 
 
-I think its important to avoid becoming a http://blog.codinghorror.com/the-magpie-developer/[magpie developer] but that doesn't mean we should avoid regular small investigations in other languages. Many of the good things that have happened to me in programming often were preceded by these 'little investigations'. 
-
-Personally I enjoy programing for the 'act of creation' and seeing beauty in algorithms but not to the extent that it invalidates 'doing something useful'.
-
-Lastly, learning idioms or better ways to do something in one language can help you become a better programmer in another.
+Lastly, learning idioms or better ways to do something in one language often help one become a better programmer in another.
 
 
 === Avoiding sentimentality in software 
 
 If you work long enough in the software industry eventually you will experience the thrill of your favourite language coming into favour as well as the despair when it falls out.
 
-Doing a moral inventory of what open software projects I work on allows me to gauge sentimality - holding onto 'precious' only because of previous commitment sunk can be the sign that you are in an evolutionary 'dead end'. I do not think this is the case with XQuery, yes its more a boutique language that works within the XML technology stack, but it also plays nice with text and now with other data formats (json, semantics, etc...). 
+Doing a regular moral inventory of what open software projects I work on allows me to gauge sentimality - holding onto 'precious' only because of previous commitment sunk can be a sign that you are in an evolutionary 'dead end'. I do not think this is the case with XQuery, yes its a boutique language that works within the XML technology stack, but it also plays nice with text and now with other data formats (json, semantics, etc...). I believe we should embrace diversity in programming and shudder at a future where we have a single paradigm for expression.
 
-
-I transferred the @XQuery twitter account to the very able @joewiz - I did so with 
 
 === @XQuery is in good hands
 
-http://twitter.com/joewiz[@joewiz] stewardship of http://twitter.com/XQuery[@XQuery] has already surpassed my paltry efforts.
+http://twitter.com/joewiz[@joewiz] stewardship of http://twitter.com/XQuery[@XQuery] has surpassed my paltry efforts and does a great job at being focused on xquery.
 
 I would heartedly reccomend you follow http://twitter.com/XQuery[@XQuery] and contribute in the discussion.
