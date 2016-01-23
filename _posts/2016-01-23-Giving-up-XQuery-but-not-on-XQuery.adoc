@@ -27,7 +27,7 @@ For example, a few months ago when using https://www.docker.com/[docker] I wonde
 
 So while I think its important to avoid becoming a http://blog.codinghorror.com/the-magpie-developer/[magpie developer] that doesn't mean we should avoid regular small investigations in other languages. 
 
-Many of the good things that have happened to me in programming often were preceded by 'little investigations' though its important to learn how to timebox your efforts. 
+Many of the good things that have happened to me in programming often were preceded by 'little investigations' though its important to learn how to timebox your efforts! 
 
 Lastly, learning idioms or better ways to do something in one language often help one become a better programmer in another.
 
