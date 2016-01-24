@@ -1,27 +1,53 @@
 = Not your Father's XQuery
 
-Last year, I embarrassed myself slightly by losing a little patience with someone who I believed was blindly slagging off XSLT. 
+Last year, I embarrassed myself slightly by losing patience with someone who was blindly slagging off https://www.w3.org/TR/xslt-30/[XSLT]. 
 
-What the unnamed individual did not realise was that they were talking about an ancient version of https://www.w3.org/TR/xslt[XSLT]. We can partially blame browser built in support of v1.0 (almost to the point where I think we should lobby for XSLT 1.0 removal from all browsers!). 
+What the (unnamed) individual did not realise was that they were talking about an ancient version of https://www.w3.org/TR/xslt[XSLT]. We can partially blame browser built in support of v1.0 (almost to the point where I think we should lobby for removal of XSLT 1.0 from all browsers!). 
 
-Even with the existance of the excellent http://www.saxonica.com/ce/index.xml[SAXON-CE XSLT v2.0] implementation for the browser, its hard to get folks to take another look at XSLT in browser context (that won't stop me from using it!). If javascript v1.0 was still used in the browser I doubt it would enjoy the broad acceptance it has today.
+Even with the existance of the excellent http://www.saxonica.com/ce/index.xml[SAXON-CE XSLT v2.0] implementation for javascript, its hard to get folks to take another look at XSLT in a browser context (that won't stop me from using it!). 
 
-I've not been as charitable with younger programmers as older programmers were with me when I was first learning the trade. The rate of change in our industry is ridiculous and expecting newcomers to have all the context about any particular programming language is quite impossible. Clearly the onus is upon those with 'context' to communicate what a programming language is today.
+---
 
-XQuery is undergoing a similar situation where developers form an opinion of XQuery based on v1.0 of the language. 
+_Observation: If javascript v1.0 was used in the browser would it enjoy the broad usage it has today?_
 
-To feel like you are travelling back in time (or to another universe) just take a look at how xquery gets used in any of http://www.oracle.com/technetwork/database-features/xmldb/index-087544.html[Oracle] or http://beyondrelational.com/modules/2/blogs/28/posts/10279/xquery-labs-a-collection-of-xquery-sample-scripts.aspx[Microsoft's] database offerings. When I look at XQuery examples in those environments my eyes get blurry and I feel light headed.
+---
 
-What is even more interesting is that there has been recent work in XQuery, for example there are some XQuery 3.0 functionality listed in Oracle documentation for https://docs.oracle.com/cd/E49465_01/doc.23/e49333/oxh.htm#BDCUG541['Oracle XQuery for Hadoop']. How a developer could ever find this out without digging (as I did) I do not know.  
+I should soften my stance a little - I have not been as charitable with younger programmers as older programmers were with me when I was first learning the trade. The rate of change in our industry is ridiculous and expecting newcomers to have all the 'context' about any particular programming language is quite impossible. 
 
-To summarise, anyone using XQuery in those environments would conclude XQuery is:
+The onus is upon those with the 'context' to communicate what a programming language is today.
+
+---
+
+https://www.w3.org/TR/xquery-31/[XQuery] is undergoing a similar situation where developers are forming opinions based on v1.0 implementations of the language. 
+
+To feel like you are travelling back in time (or to another universe) just take a look at how xquery gets used in any of http://www.oracle.com/technetwork/database-features/xmldb/index-087544.html[Oracle] or http://beyondrelational.com/modules/2/blogs/28/posts/10279/xquery-labs-a-collection-of-xquery-sample-scripts.aspx[Microsoft's] database offerings. 
+
+When I look at many of these XQuery examples, in those environments, my eyes go blurry and I feel light headed.
+
+What is interesting is that there has been recent work in XQuery in some products, for example there is XQuery 3.0 functionality listed in Oracle documentation for https://docs.oracle.com/cd/E49465_01/doc.23/e49333/oxh.htm#BDCUG541['Oracle XQuery for Hadoop']. How a developer could ever find this out without digging (as I did) I do not know.  
+
+There is also the paradox of there being many XQuery v1.0 processors in existance ... one example, the http://doc.qt.io/qt-5/xmlprocessing.html[QT XQuery engine] is set in a popular set of c++ extensions, provides good support for XQuery v1.0. As with XSLT I think I would prefer no XQuery support and elect to use an up to date processor then give a wrong impression of the language. 
+
+---
+
+Observation: XQuery v1.0 was ok but XQuery 3.# makes XQuery a highly capable functional programming language. 
+
+---
+
+What is true, is that *anyone* using XQuery in those environments would conclude XQuery is:
 
 * only for querying XML
-* an unweildy addon to much simpler SQL
-* not an elegant programming language
-* stale eg. developed in the previous decade
+* an unwelcome _hitchhiker_ embedded in much simpler SQL
+* not very elegant
+* stale eg. developed in a previous decade
 
-As a daily user of modern XQuery, the most exciting and defining characteristics of XQuery are what has happened over the past couple of years. We should try to clarify what XQuery is today.
+As a daily user of modern XQuery, the most exciting and defining characteristics of XQuery are the advancements its made over the past couple of years. 
+
+---
+
+_Observation: We should try to clarify what XQuery is today._
+
+---
 
 The newer XQuery specs do a surprisingly clear job at listing out 'whats new'.
 
@@ -32,44 +58,45 @@ The newer XQuery specs do a surprisingly clear job at listing out 'whats new'.
 And there have been many good presentations:
 
 
-
-
-
 === What is XQuery today ?
 
 I will reproduce the current https://en.wikipedia.org/wiki/XQuery[Wikipedia definition of XQuery]:
 
 _XQuery is a query and functional programming language that queries and transforms collections of structured and unstructured data, usually in the form of XML, text and with vendor-specific extensions for other data formats (JSON, binary, etc.)._
 
-Even this definition is a bit out of date, as the latest specification (https://www.w3.org/TR/xquery-31/[XQuery v3.1]) which is a W3C Candidate Recommendation adds https://www.w3.org/TR/2015/CR-xquery-31-20151217/#id-maps[maps], https://www.w3.org/TR/2015/CR-xquery-31-20151217/#id-arrays[arrays] and https://www.w3.org/TR/2015/CR-xquery-31-20151217/#id-string-constructors[string constructors] to the language making it very easy to work with other formats like JSON.  
+Even this definition is a bit out of date, as the latest specification (https://www.w3.org/TR/xquery-31/[XQuery v3.1]) which is a W3C Candidate Recommendation adds https://www.w3.org/TR/2015/CR-xquery-31-20151217/#id-maps[maps], https://www.w3.org/TR/2015/CR-xquery-31-20151217/#id-arrays[arrays] and https://www.w3.org/TR/2015/CR-xquery-31-20151217/#id-string-constructors[string constructors] to the language making it easy to work with other text based formats like JSON, html5, SPARQL, etc allowing XQuery to used as a _meta_ approach to working across many different data formats.
 
-So what does modern XQuery look like ?
+An excellant source of runnable XQuery examples is provided by eXistDB here:
 
-```
-```
-
+* http://exist-db.org/exist/apps/demo/examples/basic/basics.html[basic examples]
+* http://exist-db.org/exist/apps/demo/examples/basic/xquery3.html[XQuery 3.0 & 3.1 examples]
 
 
 ===  What is XQuery 1.0 ?
 
-The spec circa 2010
-https://www.w3.org/TR/xquery/
-
-
-=== What is XQuery 1.1 ?
-
+The https://www.w3.org/TR/xquery/[XQuery 1.0] spec was released circa 2010. With a long gestation period many vendors had already developed full blown processors before ratification of the specification as a Recommendation.
 
 
 === What is XQuery 2.0 ?
 
-The WG decided to skip this version number to align to XSLT v3.0.
+The WG decided to skip this version number to align with XSLT v3.0.
 
 
-=== What is XQuery 3.0 ?
+=== What is XPath 3.0/3.1 ?
 
-circa 2014
-https://www.w3.org/TR/xquery-30/
 
+
+== What is XQuery 3.0/3.1 ?
+
+The https://www.w3.org/TR/xquery-30/[XQuery 3.0] spec was released circa 2014 and includes a raft of fixes and new features to the language focusing on:
+
+* ease of use
+* advanced grouping and selection
+* functions as first class citizen
+* annotations
+* new functions for math, formatting, string manipulation
+
+These improvements make XQuery 3.0 a full blown functional programming language which works well with text and xml.
 
 ==== Ease of use
 
@@ -83,7 +110,7 @@ Some of the new features like:
 * Computed namespace constructors
 * Output declarations
 
-are aimed at making the language easier formalising many common extensions found in the wild.
+make the language more complete and formalise many common extensions found out in the wild.
 
 ==== Selection
 
@@ -92,55 +119,50 @@ tumbling window and sliding window in FLWOR Expressions (3.10.4 Window Clause).
 
 ==== Functions, functions, functions
 
+```
 let $sq :=
  function($i as xs:integer) as xs:integer {
  $i * $i
  }
-Inline functions are expressions and can
-appear anywhere an expression is allowed.
+```
+
+Inline functions are expressions and can appear anywhere an expression is allowed.
 
 Function literals:
-– fn:abs#1, fn:max#2, my:func#3
-● Partial application (currying):
-– string-join(?, ', ')
-– contains(?, ?, 'http://collation/case-blind')
-● Run-time discovery:
-– function-lookup($name, $arity)
 
-Functions that take functions
-as an argument
-● fn:filter($function, $sequence)
-● fn:map($function, $sequence)
-● fn:map-pairs($function, $seq1, $seq2)
-● fn:fold-left($function, $initial, $sequence)
-● fn:fold-right($function, $initial, $sequence)
+* fn:abs#1, fn:max#2, my:func#3
+  ● Partial application (currying):
+* string-join(?, ', ')
+* contains(?, ?, 'http://collation/case-blind')
+  ● Run-time discovery:
+* function-lookup($name, $arity)
+
+Functions that take functions as an argument
+
+* fn:filter($function, $sequence)
+* fn:map($function, $sequence)
+* fn:map-pairs($function, $seq1, $seq2)
+* fn:fold-left($function, $initial, $sequence)
+* fn:fold-right($function, $initial, $sequence)
 
 Properties of functions
-● function-name($function)
-● function-arity($function)
 
-Use cases for higher-order
-functions
-● Dynamic despatch mechanism
-– alternative to XSLT template rules
-– substitute for polymorphism
-● Overcome limitations of XDM type system
-● Reusable algorithms such as detection of
-cycles in a graph
-● Reduce the need to write simple things
-using recursion
+* function-name($function)
+* function-arity($function)
 
+Having first class functions in a language allow implementation of dynamic dispatch and a good substitute for polymorphism. It also allows developers to avoid cognitive load of writing functions with explicit recursion.
 
 ==== Annotations
+
 
 ==== The Rest
 
 Other new functions
 * trig/math functions: sin(), cos(), sqrt() etc
 * analyze-string()
-* format-date(), format-number(), generateid(),
-unparsed-text() etc
-– moved from XSLT to common library
+* format-date(), format-number(), generateid(),unparsed-text() etc
+
+then a set of functions, originally defined in XSLT now live in 
 * head(), tail(), path()
 * environment-variable(), uri-collection()
 * parse(), serialize()
