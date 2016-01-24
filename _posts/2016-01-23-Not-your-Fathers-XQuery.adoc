@@ -64,6 +64,11 @@ An excellant source of runnable XQuery examples is provided by eXistDB here:
 * http://exist-db.org/exist/apps/demo/examples/basic/basics.html[basic examples]
 * http://exist-db.org/exist/apps/demo/examples/basic/xquery3.html[XQuery 3.0 & 3.1 examples]
 
+And many of the historical XML databases have now become general databases able to natively represent JSON and work with a range of data formats (as well as triples,SQL, etc):
+
+* http://joewiz.org/2015/01/18/a-preview-of-xquery-3.1s-json-support-in-exist/[preview of JSON support with XQuery 3.1 in existDB]
+* https://docs.marklogic.com/8.0/guide/app-dev/json[Working with JSON in Marklogic]
+
 
 ===  What is XQuery 1.0 ?
 
