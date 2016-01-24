@@ -49,16 +49,9 @@ _Observation: We should try to clarify what XQuery is today._
 
 ---
 
-The newer XQuery specs do a surprisingly clear job at listing out 'whats new'.
-
-* https://www.w3.org/TR/xquery-30/[XQuery 3.0 Specification]
-
-* https://www.w3.org/TR/xquery-31/[XQuery 3.1 Specification ]
-
-And there have been many good presentations:
-
 
 === What is XQuery today ?
+
 
 I will reproduce the current https://en.wikipedia.org/wiki/XQuery[Wikipedia definition of XQuery]:
 
@@ -97,6 +90,13 @@ The https://www.w3.org/TR/xquery-30/[XQuery 3.0] spec was released circa 2014 an
 * new functions for math, formatting, string manipulation
 
 These improvements make XQuery 3.0 a full blown functional programming language which works well with text and xml.
+
+The newer XQuery specs do a surprisingly clear job at listing out 'whats new'.
+
+* https://www.w3.org/TR/xquery-30/[XQuery 3.0 Specification]
+
+* https://www.w3.org/TR/xquery-31/[XQuery 3.1 Specification ]
+
 
 ==== Ease of use
 
