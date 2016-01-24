@@ -2,6 +2,8 @@
 
 a list of resources to learn XQuery 
 
+* curated list of https://github.com/joewiz/learnxquery[Learning XQuery resources]
+
 * download an XQuery processor (http://www.saxonica.com/welcome/welcome.xml[Saxon], http://xqilla.sourceforge.net/HomePage[XQilla], http://www.zorba.io/[Zorba])
 * download a database that supports XQuery and start learning (http://developer.marklogic.com[MarkLogic], http://exist-db.org/exist/apps/homepage/index.html[exist DB], http://basex.org/[basex])
 
