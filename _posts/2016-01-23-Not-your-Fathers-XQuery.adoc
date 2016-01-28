@@ -196,7 +196,7 @@ The main enhancements revolve around:
 * arrays
 * string constructors
 
-making it much easier to work with other data formats (like json, etc).
+all which make it much easier to work with other data formats (like json, etc).
 
 
 == Use XQuery 3.#
