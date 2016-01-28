@@ -110,8 +110,6 @@ The newer XQuery spec do a clear job at listing out 'whats new'.
 * https://www.w3.org/TR/xquery-30/[XQuery 3.0 Specification]
 
 
-===== Ease of use
-
 Some of the new features like:
 
 * try/catch 
@@ -124,14 +122,12 @@ Some of the new features like:
 
 make the language more complete and formalise many common extensions found out in the wild.
 
-===== Selection
+Others enable novel grouping and selection mechanisms:
 
-group by clause in FLWOR Expressions (3.10.7 Group By Clause).
-tumbling window and sliding window in FLWOR Expressions (3.10.4 Window Clause).
+* group by clause in FLWOR Expressions 
+* tumbling window and sliding window in FLWOR Expressions 
 
-===== Functions, functions, functions
-
-Inline functions are expressions and can appear anywhere an expression is allowed.
+The most exciting (for this programmer) is fully embedding the notion of *functional programming* into the language. For example, inline functions are expressions and can appear anywhere an expression is allowed.
 
 ```
 let $sq :=
@@ -140,17 +136,9 @@ let $sq :=
  }
 ```
 
+And variables with the function type can be passed around to other functions.
 
-Function literals:
-
-* fn:abs#1, fn:max#2, my:func#3
-  ● Partial application (currying):
-* string-join(?, ', ')
-* contains(?, ?, 'http://collation/case-blind')
-  ● Run-time discovery:
-* function-lookup($name, $arity)
-
-Functions that take functions as an argument
+For example, here is a list of built in functions that accept a function.
 
 * fn:filter($function, $sequence)
 * fn:map($function, $sequence)
@@ -158,30 +146,41 @@ Functions that take functions as an argument
 * fn:fold-left($function, $initial, $sequence)
 * fn:fold-right($function, $initial, $sequence)
 
-Properties of functions
+Implementing the common fold, map and filtering idioms.
 
+Along with some helper functions to introspect information:
+
+* function-lookup($function)
 * function-name($function)
 * function-arity($function)
 
-Having first class functions in a language allow implementation of dynamic dispatch and a good substitute for polymorphism. It also allows developers to avoid cognitive load of writing functions with explicit recursion.
+Having first class functions in a language allows implementation of dynamic dispatch and provide polymorphism-like features. It also allows developers to avoid the cognitive load of writing functions with explicit recursion which I find a common problem teaching others how to use xquery.
 
-===== Annotations
+Next up, *annotations*, we see the addition of annotations eg. the ability to put metadata on variables and functions with annotation. This enables all kinds of fun stuff ... for example exquery.github.io/exquery/exquery-restxq-specification/restxq-1.0-specification.html[RESTXQ] is predicated on the ability to define annotations.
 
 
-===== The Rest
+```
+declare
+%rest:GET 
+%rest:path("/stock/widget/{$id}")
+function local:widget($id as xs:int) {          
+  fn:collection("/db/widgets")/widget[@id eq $id]
+};
 
-Other new functions
+```
+
+Lastly, there is a bunch of other new functions:
+
+* format-date(), format-number(), generateid(),unparsed-text() etc
 * trig/math functions: sin(), cos(), sqrt() etc
 * analyze-string()
-* format-date(), format-number(), generateid(),unparsed-text() etc
 
-then a set of functions, originally defined in XSLT now live in 
+
+with some functions being adopted from XSLT:
 * head(), tail(), path()
 * environment-variable(), uri-collection()
 * parse(), serialize()
 * Function assertions in function tests.
-
-
 
 
 ==== What is XQuery 3.1 ?
@@ -198,3 +197,10 @@ The main enhancements revolve around:
 making it much easier to work with other data formats (like json, etc).
 
 
+== Use XQuery 3.#
+
+If you got this far then you already know the summary.
+
+*use XQuery 3.0, not XQuery 1.0 !* 
+
+And tell your friends, family and fellow programmers about the excellent functional programming language.   
