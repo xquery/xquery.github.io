@@ -26,11 +26,11 @@ When I look at many of these XQuery examples, in those environments, my eyes go 
 
 What is interesting is that there has been recent work in XQuery in some products, for example there is XQuery 3.0 functionality listed in Oracle documentation for https://docs.oracle.com/cd/E49465_01/doc.23/e49333/oxh.htm#BDCUG541['Oracle XQuery for Hadoop']. How a developer could ever find this out without digging (as I did) I do not know.  
 
-There is also the paradox of there being many XQuery v1.0 processors in existance ... one example, the http://doc.qt.io/qt-5/xmlprocessing.html[QT XQuery engine] is set in a popular set of c++ extensions, provides good support for XQuery v1.0. As with XSLT I think I would prefer no XQuery support and elect to use an up to date processor then give a wrong impression of the language. 
+There is also the paradox of there being many XQuery v1.0 processors in existance ... one example, the http://doc.qt.io/qt-5/xmlprocessing.html[QT XQuery engine] is set in a popular set of c++ extensions, provides good support for XQuery v1.0. As with XSLT I think we need to speak more about the latest version of the language. 
 
 ---
 
-Observation: XQuery v1.0 was ok but XQuery 3.# makes XQuery a highly capable functional programming language. 
+Observation: XQuery v1.0 was good but XQuery 3.# makes XQuery a highly capable functional programming language. 
 
 ---
 
@@ -80,11 +80,20 @@ The https://www.w3.org/TR/xquery/[XQuery 1.0] spec was released circa 2010. With
 The WG decided to skip this version number to align with XSLT v3.0.
 
 
-=== What is XPath 3.0/3.1 ?
+=== What is XQuery 3.#?
+
+This is the minimum version that you should be trying to use. 
+
+The following products contain an XQuery processor with 3.-ou can get download XQuery processor from:
+
+* http://www.saxonica.com/products/feature-matrix-9-7.xml[Saxon]
+* http://exist-db.org[eXist]
+* http://basex.org/[basex]
+* some XQuery 3.0 support in http://developer.marklogic.com/[MarkLogic]
+* most XQuery 3.0 support in http://xqilla.sourceforge.net/HomePage[XQilla]
 
 
-
-== What is XQuery 3.0/3.1 ?
+==== What is XQuery 3.0 ?
 
 The https://www.w3.org/TR/xquery-30/[XQuery 3.0] spec was released circa 2014 and includes a raft of fixes and new features to the language focusing on:
 
@@ -96,14 +105,12 @@ The https://www.w3.org/TR/xquery-30/[XQuery 3.0] spec was released circa 2014 an
 
 These improvements make XQuery 3.0 a full blown functional programming language which works well with text and xml.
 
-The newer XQuery specs do a surprisingly clear job at listing out 'whats new'.
+The newer XQuery spec do a clear job at listing out 'whats new'.
 
 * https://www.w3.org/TR/xquery-30/[XQuery 3.0 Specification]
 
-* https://www.w3.org/TR/xquery-31/[XQuery 3.1 Specification ]
 
-
-==== Ease of use
+===== Ease of use
 
 Some of the new features like:
 
@@ -117,12 +124,14 @@ Some of the new features like:
 
 make the language more complete and formalise many common extensions found out in the wild.
 
-==== Selection
+===== Selection
 
 group by clause in FLWOR Expressions (3.10.7 Group By Clause).
 tumbling window and sliding window in FLWOR Expressions (3.10.4 Window Clause).
 
-==== Functions, functions, functions
+===== Functions, functions, functions
+
+Inline functions are expressions and can appear anywhere an expression is allowed.
 
 ```
 let $sq :=
@@ -131,7 +140,6 @@ let $sq :=
  }
 ```
 
-Inline functions are expressions and can appear anywhere an expression is allowed.
 
 Function literals:
 
@@ -157,10 +165,10 @@ Properties of functions
 
 Having first class functions in a language allow implementation of dynamic dispatch and a good substitute for polymorphism. It also allows developers to avoid cognitive load of writing functions with explicit recursion.
 
-==== Annotations
+===== Annotations
 
 
-==== The Rest
+===== The Rest
 
 Other new functions
 * trig/math functions: sin(), cos(), sqrt() etc
@@ -176,19 +184,17 @@ then a set of functions, originally defined in XSLT now live in
 
 
 
-=== What is XQuery 3.1 ?
+==== What is XQuery 3.1 ?
 
-circa 2016
 
-https://www.w3.org/TR/xquery-31/
+https://www.w3.org/TR/xquery-31/[XQuery 3.1] is in Candidate recomendation status, which means its not yet a W3C recommendation but very close.
 
-==== maps
+The main enhancements revolve around:
 
-==== arrays
+* maps
+* arrays
+* string constructors
 
-==== string constructors
+making it much easier to work with other data formats (like json, etc).
 
-==== The Rest
-
-are being proposed to be added to the language
 
