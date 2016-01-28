@@ -1,7 +1,7 @@
 = XML Prague 2016
 
 
-It does not seem possible that this is the http://www.xmlprague.cz/archive/[1̶0̶t̶h̶ 11th version] of http://www.xmlprague.cz/[XML Prague], but yes once again XML Prague 2016 is about to come to my domicile, giving me a chance to learn from many respected practioners in the industry.
+It does not seem possible that this is the http://www.xmlprague.cz/archive/ [11th version] of http://www.xmlprague.cz/[XML Prague], but yes once again XML Prague 2016 is about to come to my domicile, giving me a chance to learn from many respected practioners in the industry.
 
 Over the decade I've stepped back from helping out organising the event and I personally think http://twitter.com/jirkakosek[Jirka Kosek] does a much better job at pulling off the impossible balancing act of keeping things smoothly running and getting the absolute highest quality speakers talking about interesting (and sometimes surprising) topics. 
 
