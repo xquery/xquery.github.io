@@ -18,7 +18,7 @@ The onus is upon those with the 'context' to communicate what a programming lang
 
 ---
 
-https://www.w3.org/TR/xquery-31/[XQuery] is undergoing a similar situation where developers are forming opinions based on v1.0 implementations of the language. 
+https://www.w3.org/TR/xquery-31/[XQuery] is undergoing a similar situation where developers are forming opinions based on v1.0 implementations of the language. While most of us have known for a while about XQuery 3.0 precious little indication of this change is apparant for new users (searching google ... hence this article). 
 
 To feel like you are travelling back in time (or to another universe) just take a look at how xquery gets used in any of http://www.oracle.com/technetwork/database-features/xmldb/index-087544.html[Oracle] or http://beyondrelational.com/modules/2/blogs/28/posts/10279/xquery-labs-a-collection-of-xquery-sample-scripts.aspx[Microsoft's] database offerings. 
 
