@@ -157,7 +157,7 @@ Along with some helper functions to introspect information:
 
 Having first class functions in a language allows implementation of dynamic dispatch and provide polymorphism-like features. It also allows developers to avoid the cognitive load of writing functions with explicit recursion which I find a common problem teaching others how to use xquery.
 
-Next up, *annotations*, we see the addition of annotations eg. the ability to put metadata on variables and functions with annotation. This enables all kinds of fun stuff ... for example exquery.github.io/exquery/exquery-restxq-specification/restxq-1.0-specification.html[RESTXQ] is predicated on the ability to define annotations.
+Next up, *annotations*, we see the addition of annotations eg. the ability to put metadata on variables and functions with annotation. This enables all kinds of fun stuff ... for example http://exquery.github.io/exquery/exquery-restxq-specification/restxq-1.0-specification.html[RESTXQ] is predicated on the ability to define annotations.
 
 
 ```
