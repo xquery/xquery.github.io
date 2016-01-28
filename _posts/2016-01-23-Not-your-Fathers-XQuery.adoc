@@ -69,6 +69,7 @@ And many of the historical XML databases have now become general databases able 
 
 * http://joewiz.org/2015/01/18/a-preview-of-xquery-3.1s-json-support-in-exist/[preview of JSON support with XQuery 3.1 in existDB]
 * https://docs.marklogic.com/8.0/guide/app-dev/json[Working with JSON in Marklogic]
+* http://fgeorges.org/papers/fgeorges-xmlss-xslt-trends-2014.pdf[Florent Georges excellant'Trends in XSLT and XQuery'] gives a nice overview
 
 
 ===  What is XQuery 1.0 ?
