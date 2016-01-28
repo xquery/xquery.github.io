@@ -6,17 +6,18 @@ What the (unnamed) individual did not realise was that they were talking about a
 
 Even with the existance of the excellent http://www.saxonica.com/ce/index.xml[SAXON-CE XSLT v2.0] implementation for javascript, its hard to get folks to take another look at XSLT in a browser context (that won't stop me from using it!). 
 
----
+___
+
 
 _Observation: If javascript v1.0 was used in the browser would it enjoy the broad usage it has today?_
 
----
+___
 
 I should soften my stance a little - I have not been as charitable with younger programmers as older programmers were with me when I was first learning the trade. The rate of change in our industry is ridiculous and expecting newcomers to have all the 'context' about any particular programming language is quite impossible. 
 
 The onus is upon those with the 'context' to communicate what a programming language is today.
 
----
+___
 
 https://www.w3.org/TR/xquery-31/[XQuery] is undergoing a similar situation where developers are forming opinions based on v1.0 implementations of the language. While most of us have known for a while about XQuery 3.0 precious little indication of this change is apparant for new users (searching google ... hence this article). 
 
