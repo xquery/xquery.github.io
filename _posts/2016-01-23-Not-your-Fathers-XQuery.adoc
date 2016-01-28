@@ -199,7 +199,7 @@ The main enhancements revolve around:
 all which make it much easier to work with other data formats (like json, etc).
 
 
-== Use XQuery 3.#
+== Summary
 
 If you got this far then you already know the summary.
 
