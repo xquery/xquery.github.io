@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Not your Father&#x27;s XQuery</title>
+    <meta name="description" content="" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="//xquery.github.io/themes/Casper/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="//xquery.github.io/themes/Casper/assets/css/screen.css?v=1.0.0" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
+
+    <link rel="canonical" href="https://xquery.github.io/2016/01/23/Not-your-Fathers-XQuery.html" />
+    
+    <meta property="og:site_name" content="All about XQuery" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Not your Father&#x27;s XQuery" />
+    <meta property="og:description" content="Last year, I embarrassed myself slightly by losing patience with someone who was blindly slagging off XSLT. What the (unnamed) individual did not realise was that they were talking about an ancient version of XSLT. We can partially blame browser..." />
+    <meta property="og:url" content="https://xquery.github.io/2016/01/23/Not-your-Fathers-XQuery.html" />
+    <meta property="article:published_time" content="2016-01-22T23:00:00.000Z" />
+    <meta property="article:modified_time" content="2016-01-28T12:11:58.375Z" />
+    
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Not your Father&#x27;s XQuery" />
+    <meta name="twitter:description" content="Last year, I embarrassed myself slightly by losing patience with someone who was blindly slagging off XSLT. What the (unnamed) individual did not realise was that they were talking about an ancient version of XSLT. We can partially blame browser..." />
+    <meta name="twitter:url" content="https://xquery.github.io/2016/01/23/Not-your-Fathers-XQuery.html" />
+    
+    <script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "All about XQuery",
+    "author": {
+        "@type": "Person",
+        "name": "James Fuller",
+        "image": "https://avatars.githubusercontent.com/u/685000?v=3",
+        "url": "undefined/author/undefined",
+        "sameAs": "https://jim.fuller.name"
+    },
+    "headline": "Not your Father&#x27;s XQuery",
+    "url": "https://xquery.github.io/2016/01/23/Not-your-Fathers-XQuery.html",
+    "datePublished": "2016-01-22T23:00:00.000Z",
+    "dateModified": "2016-01-28T12:11:58.375Z",
+    "description": "Last year, I embarrassed myself slightly by losing patience with someone who was blindly slagging off XSLT. What the (unnamed) individual did not realise was that they were talking about an ancient version of XSLT. We can partially blame browser..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost ?" />
+    <link rel="alternate" type="application/rss+xml" title="All about XQuery" href="https://xquery.github.io/rss" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
+</head>
+<body class="post-template">
+
+    
+
+
+<header class="main-header post-head no-cover">
+    <nav class="main-nav  clearfix">
+        <a class="back-button icon-arrow-left" href="https://xquery.github.io">Home</a>
+        <!-- <a class="subscribe-button icon-feed" href="https://xquery.github.io/rss/">Subscribe</a> -->
+    </nav>
+</header>
+
+<main class="content" role="main">
+
+    <article class="post">
+
+        <header class="post-header">
+            <h1 class="post-title">Not your Father&#x27;s XQuery</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2016-01-23">23 January 2016</time> 
+            </section>
+        </header>
+
+        <section class="post-content">
+            <div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Last year, I embarrassed myself slightly by losing patience with someone who was blindly slagging off <a href="https://www.w3.org/TR/xslt-30/">XSLT</a>.</p>
+</div>
+<div class="paragraph">
+<p>What the (unnamed) individual did not realise was that they were talking about an ancient version of <a href="https://www.w3.org/TR/xslt">XSLT</a>. We can partially blame browser built in support of v1.0 (almost to the point where I think we should lobby for removal of XSLT 1.0 from all browsers!).</p>
+</div>
+<div class="paragraph">
+<p>Even with the existance of the excellent <a href="http://www.saxonica.com/ce/index.xml">SAXON-CE XSLT v2.0</a> implementation for javascript, its hard to get folks to take another look at XSLT in a browser context (that won&#8217;t stop me from using it!).</p>
+</div>
+<hr>
+<div class="paragraph">
+<p><em>Observation: If javascript v1.0 was used in the browser would it enjoy the broad usage it has today?</em></p>
+</div>
+<hr>
+<div class="paragraph">
+<p>I should soften my stance a little - I have not been as charitable with younger programmers as older programmers were with me when I was first learning the trade. The rate of change in our industry is ridiculous and expecting newcomers to have all the 'context' about any particular programming language is quite impossible.</p>
+</div>
+<div class="paragraph">
+<p>The onus is upon those with the 'context' to communicate what a programming language is today.</p>
+</div>
+<hr>
+<div class="paragraph">
+<p><a href="https://www.w3.org/TR/xquery-31/">XQuery</a> is undergoing a similar situation where developers are forming opinions based on v1.0 implementations of the language. While most of us have known for a while about XQuery 3.0 precious little indication of this change is apparant for new users (searching google &#8230;&#8203; hence this article).</p>
+</div>
+<div class="paragraph">
+<p>To feel like you are travelling back in time (or to another universe) just take a look at how xquery gets used in any of <a href="http://www.oracle.com/technetwork/database-features/xmldb/index-087544.html">Oracle</a> or <a href="http://beyondrelational.com/modules/2/blogs/28/posts/10279/xquery-labs-a-collection-of-xquery-sample-scripts.aspx">Microsoft&#8217;s</a> database offerings.</p>
+</div>
+<div class="paragraph">
+<p>When I look at many of these XQuery examples, in those environments, my eyes go blurry and I feel light headed.</p>
+</div>
+<div class="paragraph">
+<p>What is interesting is that there has been recent work in XQuery in some products, for example there is XQuery 3.0 functionality listed in Oracle documentation for <a href="https://docs.oracle.com/cd/E49465_01/doc.23/e49333/oxh.htm#BDCUG541">'Oracle XQuery for Hadoop'</a>. How a developer could ever find this out without digging (as I did) I do not know.</p>
+</div>
+<div class="paragraph">
+<p>There is also the paradox of there being many XQuery v1.0 processors in existance &#8230;&#8203; one example, the <a href="http://doc.qt.io/qt-5/xmlprocessing.html">QT XQuery engine</a> is set in a popular set of c++ extensions, provides good support for XQuery v1.0. As with XSLT I think we need to speak more about the latest version of the language.</p>
+</div>
+<hr>
+<div class="paragraph">
+<p>Observation: XQuery v1.0 was good but XQuery 3.# makes XQuery a highly capable functional programming language.</p>
+</div>
+<hr>
+<div class="paragraph">
+<p>What is true, is that <strong>anyone</strong> using XQuery in those environments would conclude XQuery is:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>only for querying XML</p>
+</li>
+<li>
+<p>an unwelcome <em>hitchhiker</em> embedded in much simpler SQL</p>
+</li>
+<li>
+<p>not very elegant</p>
+</li>
+<li>
+<p>stale eg. developed in a previous decade</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>As a daily user of modern XQuery, the most exciting and defining characteristics of XQuery are the advancements its made over the past couple of years.</p>
+</div>
+<hr>
+<div class="paragraph">
+<p><em>Observation: We should try to clarify what XQuery is today.</em></p>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_what_is_xquery_today">What is XQuery today ?</h3>
+<div class="paragraph">
+<p>I will reproduce the current <a href="https://en.wikipedia.org/wiki/XQuery">Wikipedia definition of XQuery</a>:</p>
+</div>
+<div class="paragraph">
+<p><em>XQuery is a query and functional programming language that queries and transforms collections of structured and unstructured data, usually in the form of XML, text and with vendor-specific extensions for other data formats (JSON, binary, etc.).</em></p>
+</div>
+<div class="paragraph">
+<p>Even this definition is a bit out of date, as the latest specification (<a href="https://www.w3.org/TR/xquery-31/">XQuery v3.1</a>) which is a W3C Candidate Recommendation adds <a href="https://www.w3.org/TR/2015/CR-xquery-31-20151217/#id-maps">maps</a>, <a href="https://www.w3.org/TR/2015/CR-xquery-31-20151217/#id-arrays">arrays</a> and <a href="https://www.w3.org/TR/2015/CR-xquery-31-20151217/#id-string-constructors">string constructors</a> to the language making it easy to work with other text based formats like JSON, html5, SPARQL, etc allowing XQuery to used as a <em>meta</em> approach to working across many different data formats.</p>
+</div>
+<div class="paragraph">
+<p>An excellant source of runnable XQuery examples is provided by eXistDB here:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://exist-db.org/exist/apps/demo/examples/basic/basics.html">basic examples</a></p>
+</li>
+<li>
+<p><a href="http://exist-db.org/exist/apps/demo/examples/basic/xquery3.html">XQuery 3.0 &amp; 3.1 examples</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>And many of the historical XML databases have now become general databases able to natively represent JSON and work with a range of data formats (as well as triples,SQL, etc):</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://joewiz.org/2015/01/18/a-preview-of-xquery-3.1s-json-support-in-exist/">preview of JSON support with XQuery 3.1 in existDB</a></p>
+</li>
+<li>
+<p><a href="https://docs.marklogic.com/8.0/guide/app-dev/json">Working with JSON in Marklogic</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_what_is_xquery_1_0">What is XQuery 1.0 ?</h3>
+<div class="paragraph">
+<p>The <a href="https://www.w3.org/TR/xquery/">XQuery 1.0</a> spec was released circa 2010. With a long gestation period many vendors had already developed full blown processors before ratification of the specification as a Recommendation.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_what_is_xquery_2_0">What is XQuery 2.0 ?</h3>
+<div class="paragraph">
+<p>The WG decided to skip this version number to align with XSLT v3.0.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_what_is_xquery_3">What is XQuery 3.#?</h3>
+<div class="paragraph">
+<p>This is the minimum version that you should be trying to use.</p>
+</div>
+<div class="paragraph">
+<p>The following products contain an XQuery processor with 3.-ou can get download XQuery processor from:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.saxonica.com/products/feature-matrix-9-7.xml">Saxon</a></p>
+</li>
+<li>
+<p><a href="http://exist-db.org">eXist</a></p>
+</li>
+<li>
+<p><a href="http://basex.org/">basex</a></p>
+</li>
+<li>
+<p>some XQuery 3.0 support in <a href="http://developer.marklogic.com/">MarkLogic</a></p>
+</li>
+<li>
+<p>most XQuery 3.0 support in <a href="http://xqilla.sourceforge.net/HomePage">XQilla</a></p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_what_is_xquery_3_0">What is XQuery 3.0 ?</h4>
+<div class="paragraph">
+<p>The <a href="https://www.w3.org/TR/xquery-30/">XQuery 3.0</a> spec was released circa 2014 and includes a raft of fixes and new features to the language focusing on:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>ease of use</p>
+</li>
+<li>
+<p>advanced grouping and selection</p>
+</li>
+<li>
+<p>functions as first class citizen</p>
+</li>
+<li>
+<p>annotations</p>
+</li>
+<li>
+<p>new functions for math, formatting, string manipulation</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>These improvements make XQuery 3.0 a full blown functional programming language which works well with text and xml.</p>
+</div>
+<div class="paragraph">
+<p>The newer XQuery spec do a clear job at listing out 'whats new'.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.w3.org/TR/xquery-30/">XQuery 3.0 Specification</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Some of the new features like:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>try/catch</p>
+</li>
+<li>
+<p>string concat with ||</p>
+</li>
+<li>
+<p>mapping operator ! for simple for expressions</p>
+</li>
+<li>
+<p>count clause in FLWOR Expressions</p>
+</li>
+<li>
+<p>Switch expressions</p>
+</li>
+<li>
+<p>Computed namespace constructors</p>
+</li>
+<li>
+<p>Output declarations</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>make the language more complete and formalise many common extensions found out in the wild.</p>
+</div>
+<div class="paragraph">
+<p>Others enable novel grouping and selection mechanisms:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>group by clause in FLWOR Expressions</p>
+</li>
+<li>
+<p>tumbling window and sliding window in FLWOR Expressions</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The most exciting (for this programmer) is fully embedding the notion of <strong>functional programming</strong> into the language. For example, inline functions are expressions and can appear anywhere an expression is allowed.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>let $sq :=
+ function($i as xs:integer) as xs:integer {
+ $i * $i
+ }</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>And variables with the function type can be passed around to other functions.</p>
+</div>
+<div class="paragraph">
+<p>For example, here is a list of built in functions that accept a function.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>fn:filter($function, $sequence)</p>
+</li>
+<li>
+<p>fn:map($function, $sequence)</p>
+</li>
+<li>
+<p>fn:map-pairs($function, $seq1, $seq2)</p>
+</li>
+<li>
+<p>fn:fold-left($function, $initial, $sequence)</p>
+</li>
+<li>
+<p>fn:fold-right($function, $initial, $sequence)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Implementing the common fold, map and filtering idioms.</p>
+</div>
+<div class="paragraph">
+<p>Along with some helper functions to introspect information:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>function-lookup($function)</p>
+</li>
+<li>
+<p>function-name($function)</p>
+</li>
+<li>
+<p>function-arity($function)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Having first class functions in a language allows implementation of dynamic dispatch and provide polymorphism-like features. It also allows developers to avoid the cognitive load of writing functions with explicit recursion which I find a common problem teaching others how to use xquery.</p>
+</div>
+<div class="paragraph">
+<p>Next up, <strong>annotations</strong>, we see the addition of annotations eg. the ability to put metadata on variables and functions with annotation. This enables all kinds of fun stuff &#8230;&#8203; for example exquery.github.io/exquery/exquery-restxq-specification/restxq-1.0-specification.html[RESTXQ] is predicated on the ability to define annotations.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>declare
+%rest:GET
+%rest:path("/stock/widget/{$id}")
+function local:widget($id as xs:int) {
+  fn:collection("/db/widgets")/widget[@id eq $id]
+};</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Lastly, there is a bunch of other new functions:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>format-date(), format-number(), generateid(),unparsed-text() etc</p>
+</li>
+<li>
+<p>trig/math functions: sin(), cos(), sqrt() etc</p>
+</li>
+<li>
+<p>analyze-string()</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>with some functions being adopted from XSLT:
+* head(), tail(), path()
+* environment-variable(), uri-collection()
+* parse(), serialize()
+* Function assertions in function tests.</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_what_is_xquery_3_1">What is XQuery 3.1 ?</h4>
+<div class="paragraph">
+<p><a href="https://www.w3.org/TR/xquery-31/">XQuery 3.1</a> is in Candidate recomendation status, which means its not yet a W3C recommendation but very close.</p>
+</div>
+<div class="paragraph">
+<p>The main enhancements revolve around:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>maps</p>
+</li>
+<li>
+<p>arrays</p>
+</li>
+<li>
+<p>string constructors</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>making it much easier to work with other data formats (like json, etc).</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_use_xquery_3">Use XQuery 3.#</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If you got this far then you already know the summary.</p>
+</div>
+<div class="paragraph">
+<p><strong>use XQuery 3.0, not XQuery 1.0 !</strong></p>
+</div>
+<div class="paragraph">
+<p>And tell your friends, family and fellow programmers about the excellent functional programming language.</p>
+</div>
+</div>
+</div>
+        </section>
+
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="" style="background-image: url(https://avatars.githubusercontent.com/u/685000?v=3)"><span class="hidden">James Fuller's Picture</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="">James Fuller</a></h4>
+
+                    <p>Read <a href="">more posts</a> by this author.</p>
+                <div class="author-meta">
+                    <span class="author-location icon-location">Prague</span>
+                    <span class="author-link icon-link"><a href="https://jim.fuller.name">https://jim.fuller.name</a></span>
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>Share this post</h4>
+                <a class="icon-twitter" href="https://twitter.com/share?text=Not%20your%20Father's%20XQuery&amp;url=https://xquery.github.io/2016/01/23/Not-your-Fathers-XQuery.html"
+                    onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <span class="hidden">Twitter</span>
+                </a>
+                <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://xquery.github.io/2016/01/23/Not-your-Fathers-XQuery.html"
+                    onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <span class="hidden">Facebook</span>
+                </a>
+                <a class="icon-google-plus" href="https://plus.google.com/share?url=https://xquery.github.io/2016/01/23/Not-your-Fathers-XQuery.html"
+                   onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <span class="hidden">Google+</span>
+                </a>
+            </section>
+
+        </footer>
+
+
+    </article>
+
+</main>
+
+
+
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="https://xquery.github.io">All about XQuery</a> &copy; 2016</section>
+        <section class="poweredby">Proudly published with <a href="http://hubpress.io">HubPress</a></section>
+    </footer>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.min.js?v="></script> <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js?v="></script> 
+      <script type="text/javascript">
+        jQuery( document ).ready(function() {
+          // change date with ago
+          jQuery('ago.ago').each(function(){
+            var element = jQuery(this).parent();
+            element.html( moment(element.text()).fromNow());
+          });
+        });
+
+        hljs.initHighlightingOnLoad();      
+      </script>
+
+    <script type="text/javascript" src="//xquery.github.io/themes/Casper/assets/js/jquery.fitvids.js?v=1.0.0"></script>
+    <script type="text/javascript" src="//xquery.github.io/themes/Casper/assets/js/index.js?v=1.0.0"></script>
+
+</body>
+</html>
