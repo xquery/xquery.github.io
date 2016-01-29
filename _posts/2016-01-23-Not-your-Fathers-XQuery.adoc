@@ -206,4 +206,4 @@ If you got this far then you already know the summary.
 
 *use XQuery 3.0, not XQuery 1.0 !* 
 
-And tell your friends, family and fellow programmers about the excellent functional programming language.   
+And tell your friends, family and fellow programmers about this excellent functional programming language.   
