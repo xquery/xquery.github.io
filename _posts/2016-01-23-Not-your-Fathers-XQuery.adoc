@@ -31,7 +31,7 @@ There is also the paradox of there being many XQuery v1.0 processors in existanc
 
 ---
 
-Observation: XQuery v1.0 was good but XQuery 3.# makes XQuery a highly capable functional programming language. 
+_Observation: XQuery v1.0 was #good# but XQuery 3.# makes XQuery a highly capable #functional programming language#._ 
 
 ---
 
