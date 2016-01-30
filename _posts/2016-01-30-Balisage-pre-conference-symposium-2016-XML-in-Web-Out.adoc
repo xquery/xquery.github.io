@@ -2,7 +2,7 @@
 
 For many years, every August I ruefully wondered if I would ever get the chance to attend http://balisage.net[Balisage], the premiere Markup conference, a required pilgrimage for any self respecting XML devotee. 
 
-However, living in Prague, it is far away and always had the knack of crossing over summer holidays or birthday celebrations. So I had to be content with reading the excellent http://www.balisage.net/Proceedings/index.html[proceedings] and grabbing snatches of conversation overheard from those fortunate enough to have attended.
+However, living in Prague, it is far away and always coincided with summer holidays or birthday celebrations. So I had to be content with reading the excellent http://www.balisage.net/Proceedings/index.html[proceedings] and grabbing snatches of conversation overheard from those fortunate enough to have attended.
 
 Well this year a stroke of unexpected luck! 
 
@@ -14,17 +14,16 @@ So with summer holidays replanned and a trip to Washington booked for August I f
 == XML in, Web out
 
 
-=== post JS/JSON era
+
+Working for http://www.marklogic.com[MarkLogic] I get to see, at scale, what works and what does not work in the real world. The hyper successful projects, those which innovate and incite radical positive change, are commonly those that embrace heterogeneous data formats which cut across the lay lines promulgated by https://en.wikipedia.org/wiki/Conway%27s_law[Conways law]. 
 
 The extremist din of the past several years, of applying javascript and json to *'everything'* has crested and started to ebb. 
 
 In many respects js/json mirrored what occurred with the XML stack when it first started asking questions of the dominant relational data model. Both the XML and JSON revolutions loosened the grip of modelling the world in 'rows and columns' but both seemed intent to make the same mistake as their relational peers, that of disavowing all other data formats for single minded application of the _one true data format_.
 
-Working for http://www.marklogic.com[MarkLogic] I get to see, at scale, what works and what does not work in the real world. The hyper successful projects, those which innovate and incite radical positive change, are commonly those that embrace heterogeneous data formats which cut across the lay lines promulgated by https://en.wikipedia.org/wiki/Conway%27s_law[Conways law]. 
 
 Its not just efficient to be able to query across json, xml, and triples with a single query it also makes for compelling results. This is definately a case of the 'whole is greater then the sum' of constituent parts and a topic I am trying to thread into this pre conference.
 
-=== I'm a XML|JSON|RDBMS|TRIPLE
 
 
 
@@ -46,7 +45,12 @@ For me the mantra I rationalise/live by is the following unattributed quote:
 
 ---
 
-Conferences are my time to *learn* and as our profession is singularly autodidatic it is imperative to weave self education into the routine. Preparing for a conference is my way of regular 'saw sharpening' on topics that interest me, attending a conference and listening to talks & meeting people is my way of learning about topics I did not have the sense enough to think of myself. 
+Conferences are my time to *learn* and as our profession is singularly autodidatic it is imperative to weave self education into the routine. Preparing for a conference is my way of regular 'saw sharpening' on topics that interest me. Attending a conference and listening to talks & meeting people is a way of learning about topics I did not have the sense enough to think of myself. 
+
+If you are interested in becoming a better practioner there are few better ways to achieve it then taking on the challenge of submitting a paper. It can be uncomfortable, trying, challenging and definately exciting but well worth it.
+
+With my elevator pitch pitched I then beseech one and all to think about submitting a paper about their web applications, how the XML technology stack supports it and how it helps you manage the 'background radition' of change associated with building and provisioning a modern web application. 
+
 
 ==== Deadlines:
 
@@ -59,4 +63,7 @@ Conferences are my time to *learn* and as our profession is singularly autodidat
 ==== How:
 
 Submit full papers or substantial drafts in XML to mailto:info@balisage.net[info@balisage.net]
+
+Even if you do not have a fully formed idea feel free to send through your thoughts or ask for any help or contact me directory http://twitter.com/_james_fuller[@_james_fuller] I would love to hear from you.
+
 
