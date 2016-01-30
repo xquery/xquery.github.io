@@ -30,7 +30,7 @@ The challenge continues when said paper is reviewed by excacting peers with the 
 
 Then there is also the impossible juggling of carving out time and energy to attend the conference itself, convincing spouses and bosses and significant all that it is worth doing.
 
-For me the mantra I r̶a̶t̶i̶o̶n̶a̶l̶i̶s̶e̶  live by is the following unattributed quote:
+For me the mantra I <s>live</s> rationalise  live by is the following unattributed quote:
 
 ---
 
@@ -46,7 +46,7 @@ Conferences are my time to *learn* and as our profession is singularly autodidat
 
 * 22 April 2016 — Paper submissions due
 * 21 May 2016 — Speakers notified
-* 8 July 2016 — Final papers due
+* 8 July 2016 — Final s due
 * 1 August 2016 — XML In, Web Out: International Symposium on sub rosa XML
 * 2–5 August 2016 — Balisage: The Markup Conference
 
