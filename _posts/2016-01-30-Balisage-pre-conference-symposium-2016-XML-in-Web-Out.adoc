@@ -1,26 +1,44 @@
 = Balisage pre-conference symposium 2016: XML in, Web Out
 
-For many years, every August I ruefully wondered if I would ever get to attend Balisage, the premiere Markup conference and a required pilgrimage for any self respecting XML devotee. 
+For many years, every August I ruefully wondered if I would ever get the change to attend http://balisage.net[Balisage], the premiere Markup conference and a required pilgrimage for any self respecting XML devotee. 
 
-However it is far away and always had the knack of crossing over planned summer holidays or birthday celebrations. So I had to be content with reading the excellent http://www.balisage.net/Proceedings/index.html[proceedings] and snatches of conversation overheard from those who had attended.
+However, living in Prague, it is far away and always had the knack of crossing over summer holidays or birthday celebrations. So I had to be content with reading the excellent http://www.balisage.net/Proceedings/index.html[proceedings] and grabbing snatches of conversation overheard from those fortunate enough to have attended.
 
-Well this year an unexpected stroke of luck; I've been asked to chair the http://www.balisage.net/XML-In-Web-Out/index.html[Balisage 2016 preconference] which I was honored to accept if not a little frightened for the responsibility of ensuring the pre conference continues down the well storied and pedigreed path of previous efforts.
+Well this year a stroke of unexpected luck! 
 
-So with summer holidays replanned and a trip to Washington booked for August I wanted to scratch out a few thoughts of what this pre-conference might want to be about.
+I've been asked to chair the http://www.balisage.net/XML-In-Web-Out/index.html[Balisage 2016 preconference] which I was honored to accept if not a little frightened for the responsibility of ensuring the pre conference continues down the well storied and pedigreed path of previous efforts. 
 
+So with summer holidays replanned and a trip to Washington booked for August I finally get the chance to also attend the main conference.
 
-
-
-
-
+I wanted to scratch out a few thoughts of what this pre-conference might want to be about and more importantly ask what you think it should be about.
 
 
-== Call for Participation
 
-_'The work is its own reward'_ is the statement that comes to mind when contributing to conferences and writing papers. Trying to fit in writing a paper in the jumble of Life, Work and _existence_ is a challenge.
+== subrosa XML
 
-The challenge continues when said paper is reviewed by peers with the possibility of having to make a presentation in front of an audience of peers seems less of a reward and more like a recipe for a case of the nerves, cold sweat and worry.
+The din of javascript and json has finally started to ebb and with it a tacit acceptance that its ok to use different data formats.
 
+
+== XML in; Web out
+
+
+== Call For Participation - Is it worth it ?
+
+_'The work is its own reward'_ is the statement that comes to mind when contributing to conferences and writing papers. Trying to fit in writing a paper in the jumble of Life, Work and _existence_ is a challenge. 
+
+The challenge continues when said paper is reviewed by excacting peers with the possibility of having to make a presentation in front of an audience of peers seems less of a reward and more like a recipe for a case of the nerves, cold sweat and worry.
+
+Then there is also the impossible juggling of carving out time and energy to attend the conference itself, convincing spouses and bosses and significant all that it is worth doing.
+
+For me the mantra I r̶a̶t̶i̶o̶n̶a̶l̶i̶s̶e̶  live by is the following unattributed quote:
+
+---
+
+*'Spend half the time practicing and half the time learning'*
+
+---
+
+Conferences are my time to *learn* and as our profession is singularly autodidatic it is imperative to weave self education into the fabric.
 
 
 
