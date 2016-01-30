@@ -1,0 +1,38 @@
+= Balisage pre-conference symposium 2016: XML in, Web Out
+
+For many years, every August I ruefully wondered if I would ever get to attend Balisage, the premiere Markup conference and a required pilgrimage for any self respecting XML devotee. 
+
+However it is far away and always had the knack of crossing over planned summer holidays or birthday celebrations. So I had to be content with reading the excellent http://www.balisage.net/Proceedings/index.html[proceedings] and snatches of conversation overheard from those who had attended.
+
+Well this year an unexpected stroke of luck; I've been asked to chair the http://www.balisage.net/XML-In-Web-Out/index.html[Balisage 2016 preconference] which I was honored to accept if not a little frightened for the responsibility of ensuring the pre conference continues down the well storied and pedigreed path of previous efforts.
+
+So with summer holidays replanned and a trip to Washington booked for August I wanted to scratch out a few thoughts of what this pre-conference might want to be about.
+
+
+
+
+
+
+
+
+== Call for Participation
+
+_'The work is its own reward'_ is the statement that comes to mind when contributing to conferences and writing papers. Trying to fit in writing a paper in the jumble of Life, Work and _existence_ is a challenge.
+
+The challenge continues when said paper is reviewed by peers with the possibility of having to make a presentation in front of an audience of peers seems less of a reward and more like a recipe for a case of the nerves, cold sweat and worry.
+
+
+
+
+=== Deadlines:
+
+* 22 April 2016 — Paper submissions due
+* 21 May 2016 — Speakers notified
+* 8 July 2016 — Final papers due
+* 1 August 2016 — XML In, Web Out: International Symposium on sub rosa XML
+* 2–5 August 2016 — Balisage: The Markup Conference
+
+=== How:
+
+Submit full papers or substantial drafts in XML to mailto:info@balisage.net[info@balisage.net]
+
