@@ -1,62 +1,58 @@
 = Balisage pre-conference symposium 2016: XML in, Web Out
 
-For many years, every August I ruefully wondered if I would ever get the chance to attend http://balisage.net[Balisage], the premiere Markup conference, a required pilgrimage for any self respecting XML devotee. 
+For many years, every August I ruefully wondered if I would ever get a chance to attend http://balisage.net[Balisage], the premiere Markup conference, a required pilgrimage for any self respecting XML devotee. 
 
 However, living in Prague, it is far away and always coincided with summer holidays or birthday celebrations. So I had to be content with reading the excellent http://www.balisage.net/Proceedings/index.html[proceedings] and grabbing snatches of conversation overheard from those fortunate enough to have attended.
 
 Well this year a stroke of unexpected luck! 
 
-I've been asked to chair the http://www.balisage.net/XML-In-Web-Out/index.html[Balisage 2016 preconference] which I was honored to accept if not a little frightened for the responsibility of ensuring the pre conference continues down the well storied and pedigreed path of previous efforts. 
+I've been asked to chair the http://www.balisage.net/XML-In-Web-Out/index.html[Balisage 2016 preconference] which I was honored to accept if not a little frightened for taking on the responsibility of ensuring the pre conference continues down the pedigreed path of previous efforts. 
 
-So with summer holidays replanned and a trip to Washington booked for August I finally get the chance to attend a thought provoking conference about Markup, the practical web adulterated with heavy doses of practical theory.
+So with summer holidays replanned and a trip to Washington booked I finally get the chance to attend a thought provoking conference about much more then Markup.
 
 
 == XML in, Web out
 
+Working for http://www.marklogic.com[MarkLogic] I get to see, at scale, what works in the real world. The hyper successful projects, which innovate and incite radical positive change, are commonly those that embrace heterogeneous data formats which cut across the lay lines promulgated by https://en.wikipedia.org/wiki/Conway%27s_law[Conways law] and work complementary alongside older and newer technologies. 
 
-
-Working for http://www.marklogic.com[MarkLogic] I get to see, at scale, what works and what does not work in the real world. The hyper successful projects, those which innovate and incite radical positive change, are commonly those that embrace heterogeneous data formats which cut across the lay lines promulgated by https://en.wikipedia.org/wiki/Conway%27s_law[Conways law]. 
-
-The extremist din of the past several years, of applying javascript and json to *'everything'* has crested and started to ebb. 
-
-In many respects js/json mirrored what occurred with the XML stack when it first started asking questions of the dominant relational data model. Both the XML and JSON revolutions loosened the grip of modelling the world in 'rows and columns' but both seemed intent to make the same mistake as their relational peers, that of disavowing all other data formats for single minded application of the _one true data format_.
-
-
-Its not just efficient to be able to query across json, xml, and triples with a single query it also makes for compelling results. This is definately a case of the 'whole is greater then the sum' of constituent parts and a topic I am trying to thread into this pre conference.
-
-
+The http://www.balisage.net/XML-In-Web-Out/index.html[XML in; Web out preconference] will be a forum and showcase for how the XML Technology stack provides a natural 'backbone' for building Great Web Applications.
 
 
 === Call For Participation - Is it worth it ?
 
+So the call goes out to practioners who are building web applications with the XML stack - we want your http://www.balisage.net/XML-In-Web-Out/index.html[submissions].
+
+---
 _'The work is its own reward'_ 
 
+---
 The preceding statement comes to mind when contributing to conferences and writing papers. Trying to fit in writing a paper in the jumble of Life, Work and _Existence_ is a challenge. 
 
-The challenge continues when a paper is reviewed by exacting peers with the possibility of having to make a presentation in front of an audience; which seems less of a reward and more like a recipe for a case of nerves and cold sweat.
+The challenge continues when a paper is reviewed by exacting peers with the possibility of having to make a presentation in front of an audience; which seems less of a reward and more like a recipe for a case of nerves and cold sweat. Then there is the impossible juggling of carving out time and energy to travel and spend a few days attending a conference, convincing spouses and cajoling bosses that its worth it.
 
-Then there is the impossible juggling of carving out time and energy to travel and spend a few days attending a conference, convincing spouses and cajoling bosses that its worth it.
-
-For me the mantra I rationalise/live by is the following unattributed quote:
+So if I have not put you completely off submitting a paper, allow me to say some of the benefits.
 
 ---
 
-*'Spend half the time "doing" and half the time "learning"'*
+_'Spend half the time "*doing*" and half the time "*learning*"'_
 
 ---
 
-Conferences are my time to *learn* and as our profession is singularly autodidatic it is imperative to weave self education into the routine. Preparing for a conference is my way of regular 'saw sharpening' on topics that interest me. Attending a conference and listening to talks & meeting people is a way of learning about topics I did not have the sense enough to think of myself. 
+The above unattributed quote (not me) sums up my rationalisation attending conferences. Often I am doing/learning at the same time but I think you all understand what I mean.  
 
-If you are interested in becoming a better practioner there are few better ways to achieve it then taking on the challenge of submitting a paper. It can be uncomfortable, trying, challenging and definately exciting but well worth it.
+Conferences are my time to *learn* and as our profession is singularly autodidatic it is imperative to weave self education into the routine. 
 
-With my elevator pitch pitched I then beseech one and all to think about submitting a paper about their web applications, how the XML technology stack supports it and how it helps you manage the 'background radition' of change associated with building and provisioning a modern web application. 
+Preparing for a conference is my way of regular 'saw sharpening' on topics that interest me. Attending a conference and listening to talks & meeting people is a way of learning about topics I did not have the sense enough to think of myself. 
 
+If you are interested in becoming a better practioner there are few better ways to achieve it then taking on the challenge of submitting a paper. It can be uncomfortable, trying, challenging and exciting but well worth it.
+
+You've got plenty of time ...
 
 ==== Deadlines:
 
 * 22 April 2016 — Paper submissions due
 * 21 May 2016 — Speakers notified
-* 8 July 2016 — Final s due
+* 8 July 2016 — Finals due
 * 1 August 2016 — XML In, Web Out: International Symposium on sub rosa XML
 * 2–5 August 2016 — Balisage: The Markup Conference
 
@@ -64,6 +60,6 @@ With my elevator pitch pitched I then beseech one and all to think about submitt
 
 Submit full papers or substantial drafts in XML to mailto:info@balisage.net[info@balisage.net]
 
-Even if you do not have a fully formed idea feel free to send through your thoughts or ask for any help or contact me directory http://twitter.com/_james_fuller[@_james_fuller] I would love to hear from you.
+Even if you do not have a fully formed idea feel free to send through your thoughts or http://twitter.com/_james_fuller[DM me @_james_fuller] I would love to hear from you.
 
 
