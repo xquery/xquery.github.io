@@ -2,7 +2,7 @@
 
 For many years, every August I ruefully wondered if I would ever get a chance to attend http://balisage.net[Balisage], the premiere Markup conference, a required pilgrimage for any self respecting XML devotee. 
 
-However, living in Prague, it is far away and always coincided with summer holidays or birthday celebrations. So I had to be content with reading the excellent http://www.balisage.net/Proceedings/index.html[proceedings] and grabbing snatches of conversation overheard from those fortunate enough to have attended.
+However, living in http://www.czechtourism.com/a/prague/[Prague], it is far away and always coincided with summer holidays or birthday celebrations. So I had to be content with reading the excellent http://www.balisage.net/Proceedings/index.html[proceedings] and grabbing snatches of conversation overheard from those fortunate enough to have attended.
 
 Well this year a stroke of unexpected luck! 
 
