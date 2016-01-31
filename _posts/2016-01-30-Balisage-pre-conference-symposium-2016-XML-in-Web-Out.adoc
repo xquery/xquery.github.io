@@ -13,7 +13,7 @@ So with summer holidays replanned and a trip to Washington booked I finally get 
 
 == XML in, Web out
 
-Working for http://www.marklogic.com[MarkLogic] I get to see, at scale, what works in the real world. The hyper successful projects, which innovate and incite radical positive change, are commonly those that embrace heterogeneous data formats which cut across the lay lines promulgated by https://en.wikipedia.org/wiki/Conway%27s_law[Conways law]. Many of these projects use the XML  stack as a central component to their most critical applications and its inspiring to see how well this can compliment older and newer technology stacks.
+Working for http://www.marklogic.com[MarkLogic] I get to see, at scale, what works in the real world. The hyper successful projects, which innovate and incite radical positive change, are commonly those that embrace heterogeneous data formats which cut across the lay lines promulgated by https://en.wikipedia.org/wiki/Conway%27s_law[Conways law]. Many of these projects use the XML  stack as a central component to their most critical applications and its inspiring to see how well the XML stack compliments older and newer technology stacks (a case of 'The whole is greater than the sum of its parts').
 
 The http://www.balisage.net/XML-In-Web-Out/index.html[XML in; Web out preconference] will be a forum and showcase for how the XML Technology stack provides a natural 'backbone' for building Great Web Applications.
 
