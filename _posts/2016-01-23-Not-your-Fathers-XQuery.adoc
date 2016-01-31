@@ -76,6 +76,7 @@ And many of the historical XML databases have now become general databases able 
 
 The https://www.w3.org/TR/xquery/[XQuery 1.0] spec was released circa 2010. With a long gestation period many vendors had already developed full blown processors before ratification of the specification as a Recommendation.
 
+Some products use early draft versions of XQuery 1.0 - for example Microsoft SQL server decided XQuery 2004 draft was sufficient and never bothered to update.
 
 === What is XQuery 2.0 ?
 
