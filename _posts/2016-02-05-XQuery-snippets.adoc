@@ -1,0 +1,8 @@
+= XQuery snippets
+
+
+* https://gist.github.com/xquery/c66bec2d3695e9026fae[Binary Search]
+* https://gist.github.com/xquery/5594054[Map Reduce]
+* https://gist.github.com/xquery/5128611[Map accessor] though I think XQuery 3.1 $map?somekey 
+* https://gist.github.com/xquery/1885182[FizzBuzz Impl] and others coming up with more optimised versions
+* https://gist.github.com/xquery/1185659[XQuery Prime Number generation]
