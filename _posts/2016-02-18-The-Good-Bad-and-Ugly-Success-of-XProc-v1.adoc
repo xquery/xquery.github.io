@@ -1,4 +1,85 @@
-= The Wild Success of XProc v1
+= The Good, Bad and Ugly Success of XProc v1
 
-Some observations about XProc after http://www.xmlprague.cz#[XML Prague]. 
+Some http://www.xmlprague.cz#[XML Prague] inspired observations of XProc v1. 
+
+XProc is a W3C standard that defines an XML Pipeline language.
+
+_An XML Pipeline specifies a sequence of operations to be performed on zero or more XML documents. Pipelines generally accept zero or more XML documents as input and produce zero or more XML documents as output. Pipelines are made up of simple steps which perform atomic operations on XML documents and constructs similar to conditionals, iteration, and exception handlers which control which steps are executed._
+
+The original goal for XProc v1 was to be able to manage processing pipelines of XML documents. 
+
+== The Good
+
+XProc v1 got most of the hard parts of specifying and modeling pipelines stunningly correct going far beyond modeling simple workflows defining a full blown dataflow language.
+
+The WG careful work on XProc v1 means that the current semantics and model are a very solid foundation, sufficiently abstracted and generalised to handle the most complex pipelines.
+
+
+=== Sophisticated pipelines 
+
+=== Small but dedicated core community 
+
+=== Money
+ Gerrit mention of '7 figure sums' on the back of XProc technology
+
+=== Dynamic
+
+The XML Syntax provides a highly flexible 
+
+=== Implementations
+
+XMLCalabash 
+
+
+== The Bad
+
+https://www.w3.org/TR/xproc-v2-req/[XProc v2 requirements] is a good list of what needs to be fixed with XProc.
+
+
+=== MUST requirements
+
+The *MUST* being:
+
+==== Simplify parameters:
+==== Integrate non-XML documents into pipelines
+==== Align with XPath 3.0 technologies
+==== Add explicit flow handling
+==== Allow arbitrary XDM values in variables
+==== Allow attribute value templates
+==== Support a variety of syntactic simplifications
+
+=== SHOULD requirements
+
+And *SHOULD*:
+
+==== Associate arbitrary metadata with documents
+==== Support steps with a dynamic number of ports
+==== Provide improved status information
+==== Provide a mechanism for importing user-defined functions
+==== Enhance try/catch
+==== Consider using XDM everywhere
+==== Simplify p:viewport and allow it to have multiple outputs
+
+
+== The Ugly
+
+There are some aspects of XProc v1 which are 'deal breakers' for many developers.
+
+==== Angle brackets
+
+The XML Syntax means for some developers XProc will never be used.
+
+==== Steep learning curve
+
+ 
+
+
+== The Relevant 
+
+_'If you don’t like change, you’re going to like irrelevance even less'_
+
+
+
+https://xproc.github.io/specification/[XProc draft v2] attempted to fix 'The Bad' without addressing 'The Ugly'?
+
 
