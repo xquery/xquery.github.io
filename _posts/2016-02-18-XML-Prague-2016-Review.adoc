@@ -1,3 +1,22 @@
 = XML Prague 2016 Review
 
-I left this years conference brimming with energy and excited for the future.
+I left this years http://www.xmlprague.cz[conference] brimming with energy and excited for the future.
+
+
+All the talks were of a high standard and I would recommend checking out the proceedings and related presentations/code.
+
+A few talks 
+
+=== Romain Deltour's double barrel of EPUB
+
+=== Michael Kay and Abel 'dueling' XSLT processors
+
+=== Michael Kay's XSLT 3.0 compiled stylesheets in JS
+
+=== Alex Milowski's dataflow programming
+
+=== James Wrights XQuery promises
+
+=== Charles Greer
+
+=== George Bina's reprisal of Magic URLs
