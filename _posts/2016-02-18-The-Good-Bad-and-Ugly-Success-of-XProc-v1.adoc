@@ -10,9 +10,9 @@ The original goal for XProc v1 was to be able to manage processing pipelines of 
 
 == The Good
 
-XProc v1 got most of the hard parts of specifying and modeling pipelines stunningly correct going far beyond modeling simple workflows defining a full blown dataflow language.
+XProc v1 got most of the hard parts of specifying pipelines stunningly correct going far beyond modeling simple workflows defining a full blown dataflow language.
 
-The WG careful work on XProc v1 means that the current semantics and model are a very solid foundation, sufficiently abstracted and generalised to handle the most complex pipelines.
+The WG careful work on XProc v1 means that the current semantics and model are a  solid foundation, sufficiently abstracted and generalised to handle the most complex pipelines.
 
 
 === Sophisticated pipelines 
@@ -33,31 +33,65 @@ XMLCalabash
 
 == The Bad
 
-https://www.w3.org/TR/xproc-v2-req/[XProc v2 requirements] is a good list of what needs to be fixed with XProc.
+https://www.w3.org/TR/xproc-v2-req/[XProc v2 requirements] is a good list of what needed to be fixed with XProc.
 
 
 === MUST requirements
 
 The *MUST* being:
 
-==== Simplify parameters:
+==== Simplify parameters
+
+Parameters were too complex
+
 ==== Integrate non-XML documents into pipelines
+
+In many use cases and workflows we want to flow through heterogenous data and documents.
+
 ==== Align with XPath 3.0 technologies
+
+Adopting the goodness of XPath 3.0 brings functional programming parity to XProc.
+
 ==== Add explicit flow handling
+
+Flows are implicitly determined by port connections ... this is too subtle.
+
 ==== Allow arbitrary XDM values in variables
+
+Options and variables just containing strings turns out to be far too limiting
+
 ==== Allow attribute value templates
+
+Not being able to use AVT makes for some complicated pipelines
+
 ==== Support a variety of syntactic simplifications
+
+Any version 1 of a language comes with burrs to be smooted over
 
 === SHOULD requirements
 
 And *SHOULD*:
 
 ==== Associate arbitrary metadata with documents
+
+Every document has metadata
+
 ==== Support steps with a dynamic number of ports
+
+Implicit port connection makes this hard
+
 ==== Provide improved status information
+
+Comprehending flow 
+
+Debugging
+
 ==== Provide a mechanism for importing user-defined functions
-==== Enhance try/catch
+
+Letting XQuery or XSLT functions be loaded into scope 
+
 ==== Consider using XDM everywhere
+
 ==== Simplify p:viewport and allow it to have multiple outputs
 
 
@@ -67,10 +101,12 @@ There are some aspects of XProc v1 which are 'deal breakers' for many developers
 
 ==== Angle brackets
 
-The XML Syntax means for some developers XProc will never be used.
+The XML Syntax means for many developers means XProc will never even be considered.
+
 
 ==== Steep learning curve
 
+Other XML communities have looked into using XProc and failed
  
 
 
