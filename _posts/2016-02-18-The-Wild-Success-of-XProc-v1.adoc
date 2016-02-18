@@ -1,0 +1,4 @@
+= The Wild Success of XProc v1
+
+Some observations about XProc after http://www.xmlprague.cz#[XML Prague]. 
+
