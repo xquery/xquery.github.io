@@ -115,7 +115,18 @@ Other XML communities have looked into using XProc and failed
 _'If you don’t like change, you’re going to like irrelevance even less'_
 
 
+Is a meme that caught my eye last week. Its apropos to XProc in that 
 
 https://xproc.github.io/specification/[XProc draft v2] attempted to fix 'The Bad' without addressing 'The Ugly'?
 
+Speaking for myself (and not the Working Group) I would like XProc to appeal to:
 
+* publishing stacks
+* web stacks 
+* casual (command line scripting)
+
+* XSLT/XQuery users
+* Data science (people using R, julia, python)
+* my grandmother
+
+I 
