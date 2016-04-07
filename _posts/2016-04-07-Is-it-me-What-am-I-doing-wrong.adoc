@@ -25,4 +25,4 @@ Deadlines:
 * 1 August 2016 — XML In, Web Out: International Symposium on sub rosa XML
 * 2–5 August 2016 — Balisage: The Markup Conference
 
-If you have any submission ideas, questions or advice for me feel free to email me at jim.fuller@webcomposite.com , would love to hear from you. 
+If you have any submission ideas, questions or advice for me feel free to email me at jim.fuller@marklogic.com , would love to hear from you. 
