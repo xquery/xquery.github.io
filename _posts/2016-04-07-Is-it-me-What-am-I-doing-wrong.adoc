@@ -1,6 +1,18 @@
 = Is it me ? What am I doing wrong ...
 
 
-We are getting some great submissions to Balisage symposium but there is 
+We are getting some great submissions to http://www.balisage.net/XML-In-Web-Out/index.html[Balisage 2016 symposium] though all from men and none from women.
 
-Over the years, the conferences I have attended have had an increasing component of the smarter sexHaving attended a few XML conferences there is some hope 
+I feel distinctly uncomfortable writing about the lack of any submissions or interest from women speakers.
+
+* no you will not be the only female in attendence, after all the Balisage conference was founded and chaired by the one and only http://www.mulberrytech.com/people/usdin/index.html[B. Tommie Usdin]
+ 
+* you may see some geeky games of http://www.playwerewolf.co/[Werewolf] but Balisage is a completely friendly and safe place for all villagers.
+
+jumping on  artificial bias but where there are great imbalances, even greater measures are required
+
+Over the years, the http://www.xmlprague.cz[conferences] I have attended have had an increasing attendance by the http://www.livescience.com/21647-men-women-iq-scores.html[smarter sex]. 
+
+
+
+Maybe 
