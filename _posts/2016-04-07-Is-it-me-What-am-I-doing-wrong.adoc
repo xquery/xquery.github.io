@@ -1,18 +1,27 @@
 = Is it me ? What am I doing wrong ...
 
 
-We are getting some great submissions to http://www.balisage.net/XML-In-Web-Out/index.html[Balisage 2016 symposium] though all from men and none from women.
+We are getting some great submissions to http://www.balisage.net/XML-In-Web-Out/index.html[Balisage 2016 symposium] though all from men and *none* from women.
 
-I feel distinctly uncomfortable writing about the lack of any submissions or interest from women speakers.
+So for those of the http://www.livescience.com/21647-men-women-iq-scores.html[smarter sex] I will eschew expiating and provide a list to cajole, convince if not amuse:
 
-* no you will not be the only female in attendence, after all the Balisage conference was founded and chaired by the one and only http://www.mulberrytech.com/people/usdin/index.html[B. Tommie Usdin]
+* No, you will not be the only female in attendence, after all the Balisage conference was founded and chaired by the one and only http://www.mulberrytech.com/people/usdin/index.html[B. Tommie Usdin].
  
-* you may see some geeky games of http://www.playwerewolf.co/[Werewolf] but Balisage is a completely friendly and safe place for all villagers.
+* You may see (and participate if you like) in some geeky games of http://www.playwerewolf.co/[Werewolf] but Balisage is a completely friendly and safe place for all the 'villagers'.
 
-jumping on  artificial bias but where there are great imbalances, even greater measures are required
+* Speakers are humans not TV personalities or rockstars... as it states on the Balisage website 'The people making Balisage include markup theoreticians and practitioners, data modelers, designers, architects, and both aficionados and deep thinkers. We work as software developers, system architects, academics, integrators, librarians, data miners, lexicographers, integrators, archivists, document managers, standards developers, programmers, and publishers.' If this sounds familiar then you should consider making a submission.
 
-Over the years, the http://www.xmlprague.cz[conferences] I have attended have had an increasing attendance by the http://www.livescience.com/21647-men-women-iq-scores.html[smarter sex]. 
+* Often the hardest step can be deciding on which idea to write about - personally I start with writing write bullet lists - feel free to drop me an informal email at jim.fuller@marklogic.com and I will try provide feedback.
 
+So what is stopping you?
 
+http://www.balisage.net/XML-In-Web-Out/index.html
 
-Maybe 
+Deadlines:
+22 April 2016 — Paper submissions due
+21 May 2016 — Speakers notified
+8 July 2016 — Final papers due
+1 August 2016 — XML In, Web Out: International Symposium on sub rosa XML
+2–5 August 2016 — Balisage: The Markup Conference
+
+If you have any submission ideas, questions or advice for me feel free to email me at jim.fuller@webcomposite.com , would love to hear from you. 
