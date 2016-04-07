@@ -11,7 +11,7 @@ So for those of the http://www.livescience.com/21647-men-women-iq-scores.html[sm
 
 * Speakers are humans not TV personalities or rockstars... as it states on the Balisage website 'The people making Balisage include markup theoreticians and practitioners, data modelers, designers, architects, and both aficionados and deep thinkers. We work as software developers, system architects, academics, integrators, librarians, data miners, lexicographers, integrators, archivists, document managers, standards developers, programmers, and publishers.' If this sounds familiar then you should consider making a submission.
 
-* Often the hardest step can be deciding on which idea to write about - personally I start with writing write bullet lists - feel free to drop me an informal email at jim.fuller@marklogic.com and I will provide quick feedback.
+* Often the hardest step can be deciding on which idea to write about - personally I start with writing bullet lists - feel free to drop me an informal email at jim.fuller@marklogic.com and I will provide quick feedback.
 
 So what is stopping you?
 
