@@ -50,7 +50,7 @@ This paper nails the symposium topic squarely illustrating how the XML stack is 
 
 I used to say if I were marooned on a desert island I would take Perl with me (or lisp) ... nowadays it would be the XML stack as it gives me a lot of practical (escape) routes for working with real problems. 
 
-Furthermoree the authors show how the XML Stack + web stack du jour (no passive aggro intended ...) work together.
+The authors show how the XML Stack + web stack du jour (no passive aggro intended ...) can work together.
 
 
 === Messaging format persistence in Healthcare.gov and other large enterprise systems 
