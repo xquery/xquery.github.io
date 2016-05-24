@@ -45,7 +45,11 @@ With hard won advice provided along the way.
 === Meta(data)morphosis 
 ===== Ashley M. Clark, Sarah Connell, Northeastern University
 
+This paper nails the symposium topic squarely illustrating how the XML stack is highly capable in handling all the mess that comes with 'metamorphosis of a 'real world' corpus (warts and all) intended for web publication. 
 
+I used to say if I were marooned on a desert island I would take Perl with me (or lisp) ... nowadays it would be the XML stack as it gives me a lot of practical (escape) routes for working with real problems. 
+
+Furthermoree the authors show how the XML Stack + web stack du jour (no passive aggro intended ...) work together.
 
 
 === Messaging format persistence in Healthcare.gov and other large enterprise systems 
