@@ -31,8 +31,14 @@ As a bonus, the actual application is pretty interesting as well!
 === The XML expert’s path to web applications 
 ===== Anne Brüggemann-Klein, Technical University of Munich (TUM)
 
+This paper is a good illustration of how  the XML stack can underpin a thin-client https://en.wikipedia.org/wiki/XRX_(web_application_architecture)[XRX] web application.
 
+* OO domain driven design
+* event driven (with statecharts)
+* https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller[MVC]
+* observer pattern and server push with multi-client Web applications 
 
+With hard won advice provided along the way.
 
 === Meta(data)morphosis 
 ===== Ashley M. Clark, Sarah Connell, Northeastern University
