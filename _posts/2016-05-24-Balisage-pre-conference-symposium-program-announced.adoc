@@ -89,7 +89,7 @@ The last talk of the day demonstrates how the XML Stack provides a highly flexib
 
 all possible via non technical administrative interfaces.
 
-We see lots of 'kitchen sink' type approaches in other stacks ... personally I feel that XML stack is a logical foundation and facade for providing stable yet flexible architectures which 'bend with the wind'.
+We see lots of 'kitchen sink' type approaches in other stacks for this kind of thing ... personally I feel that the XML stack is a logical foundation and facade for providing stable yet flexible architectures which 'bend with the wind' for such frameworks.
 
 
 === Panel Discussion: Multi Stack Harmony
