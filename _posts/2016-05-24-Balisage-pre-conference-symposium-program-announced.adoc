@@ -23,7 +23,7 @@ High value XML should be leveraged by every company to help solve their publishi
 
 Like much of the XML stack, XSLT is a wonderful technology with a very poor image problem ... mostly because XSLT 1.0 was 'slow walked' in the browser. 
 
-Most developers formed an opinion on XSLT based on XSLT 1.0 in the browser. I think part of the reason why we do not see as much usage of XSLT to generate static applications is that developers were trying to 'shoe horn' using XSLT 1.0 (in a browser) for the job. There are better ways to do that kind of thing in the browser now (http://www.saxonica.com/ce/index.xml[saxon-ce] comes to mind) but stepping back, XSLT processing in the browser is a distraction ... we have full blooded tools for doing the job right.  
+Most developers formed an opinion on XSLT based on XSLT 1.0 in the browser. I think part of the reason why we do not see as much usage of XSLT to generate static applications is that developers were trying to 'shoe horn' using XSLT 1.0 (in a browser) for the job. There are better ways to do that kind of thing in the browser now (http://www.saxonica.com/ce/index.xml[saxon-ce] comes to mind) but stepping back, XSLT processing in the browser is a distraction ... we have full blooded tools for doing the job right without the need to involve a browser.  
 
 This paper shows how simple it is to easily transform XML content with XSLT 2.0 generating cache friendly, standalone (offline viewable) static websites.
 
@@ -42,6 +42,7 @@ This paper is a good illustration of how  the XML stack can underpin a thin-clie
 
 With hard won advice provided along the way.
 
+
 === Meta(data)morphosis 
 ===== Ashley M. Clark, Sarah Connell, Northeastern University
 
@@ -55,27 +56,46 @@ Furthermoree the authors show how the XML Stack + web stack du jour (no passive 
 === Messaging format persistence in Healthcare.gov and other large enterprise systems 
 ===== Damon Feldman, MarkLogic Corporation
 
+Large systems come with more problems due to expanded scope. Need to integrate with a few databases ... in the hyper enterprise make that 50 or 100 databases. Need to respond to searches in milliseconds, in the hyper enterprise do that with a few 100k people at the same time ... and so forth and so on .... 
 
+It is not just that problems are 'super sized' it is also true that new complexity arises from integrating already complex systems.
+
+The author provides deep insight on how simplifying design and modelling decisions aided by the XML stack helps with solving the hardest problems in our industry today. 
+
+Most will have heard from the news of the challenges of healthcare.gov, though many will not know how the XML Stack working alongside other technologies helped solve those challenges under the harshest operating conditions.
 
 
 === XQuery Is Not (Just) a Query Language 
 ===== Gregory Murray, Princeton Theological Seminary
 
+The author provides excellent advice on using modern XQuery as a fully mature functional programming language.
 
+* enabling MVC architecture
+* ensuring functions are testable
+* using RESTXQ for URL rewriting
+* isolating implementation-specific functions into separate modules
 
+XQuery hits a sweet spot and a highly productive language - something near and dear to my heart and I think many will find the author's talk full of great advice and tips for working with modern XQuery. 
 
 
 === The Kiln XML Publishing Framework 
 ===== Paul Caton & Miguel Vieira, King's College, London
 
+The last talk of the day demonstrates how the XML Stack provides a highly flexible foundation for provisioning a broad variety of web applications, using different sources enabling complex features such as:
 
+* search
+* pdf/epub format 
+* RDF (with https://projects.eclipse.org/projects/technology.rdf4j[Sesame])
 
-
+all possible via non technical administrative interfaces.
 
 === Panel Discussion: Multi Stack Harmony
 
-The Symposium presentations demonstrate how the XML stack can work in harmony with other common stacks (web, java, etc), playing to each others strengths while offsetting weaknesses. A panel comprised of speakers and domain experts will discuss techniques that promote harmony and interworking between technology stacks, as well as idioms to be avoided. Questions and observations from attendees will shape the discussion of how to make the XML stack 'play nice' with others.
+TBD
 
+=== Register to attend now
+
+If any of this sounds interesting I urge you to register now.
 
 http://www.balisage.net/XML-In-Web-Out/index.html
 
