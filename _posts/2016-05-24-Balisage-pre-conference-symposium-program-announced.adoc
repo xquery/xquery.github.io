@@ -1,0 +1,41 @@
+= Balisage pre-conference symposium program announced
+
+The balisage pre-conference symposium, XML In, Web Out: International Symposium on sub rosa XML, has finally taken http://balisage.net/XML-In-Web-Out/symposiumProgram.html[shape] and (along with the http://balisage.net/index.html[full conference]) it looks to be a good one.
+
+
+Having read the papers I can give a flavor of what to expect.
+
+
+=== Welcome Jim Fuller, Marklogic
+
+Where yours trully attempts to provide an overview of the day's talks as well as provide non-trivial examples of the XML stack working hand in hand with other technology stacks in the wild.  
+
+=== XSLT as a powerful static website generator: Hogrefe's Clinical Handbook of Psychotropic Drugs 
+==== Martin Kraetke & Gerrit Imsieke, le-tex publishing services GmbH
+
+
+
+
+=== The XML expert’s path to web applications 
+==== Anne Brüggemann-Klein, Technical University of Munich (TUM)
+
+
+=== Meta(data)morphosis 
+==== Ashley M. Clark, Sarah Connell, Northeastern University
+
+
+=== Messaging format persistence in Healthcare.gov and other large enterprise systems 
+==== Damon Feldman, MarkLogic Corporation
+
+=== XQuery Is Not (Just) a Query Language 
+==== Gregory Murray, Princeton Theological Seminary
+
+=== The Kiln XML Publishing Framework 
+==== Paul Caton & Miguel Vieira, King's College, London
+
+=== Panel Discussion
+==== Multi Stack Harmony
+
+
+http://www.balisage.net/XML-In-Web-Out/index.html
+
