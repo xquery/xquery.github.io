@@ -9,7 +9,7 @@ Having read the papers I can give a little of the flavor of what to expect.
 === Welcome 
 ===== Jim Fuller, Marklogic
 
-Where yours trully offers observations on the themes comprising the day's talks briefly touching upon real world, non-trivial examples of the XML stack working hand in hand with other modern technology stacks.  
+Where yours truly offers observations on the themes comprising the day's talks briefly touching upon real world, non-trivial examples of the XML stack working hand in hand with other modern technology stacks.  
 
 
 === XSLT as a powerful static website generator: Hogrefe's Clinical Handbook of Psychotropic Drugs 
