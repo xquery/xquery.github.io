@@ -15,17 +15,19 @@ Where yours trully offers observations on the themes comprising the day's talks 
 === XSLT as a powerful static website generator: Hogrefe's Clinical Handbook of Psychotropic Drugs 
 ===== Martin Kraetke & Gerrit Imsieke, le-tex publishing services GmbH
 
-This paper reminds me of a quote often said at http://www.marklogic.com[work], something to the effect of:
+This paper reminds me of a quote often repeated at http://www.marklogic.com[work], something to the effect of:
 
 > Every company has a publishing problem.
 
-Often there is high value XML waiting to be leveraged in every company. Even publishing companies can benefit from reusing single source XML originally created for print to derive rich web and mobile applications. 
+High value XML should be leveraged by every company to help solve their publishing problems. Even publishing companies can benefit from reusing single source XML originally created for print to derive rich web and mobile applications. 
 
-XSLT is a wonderful technology with a very poor image problem ... mostly because XSLT 1.0 was 'slow walked' in the browser. Most developers wrongly think XSLT 1.0 (in the browser) is the definition of XSLT ... nothing could be further from the truth. 
+Like much of the XML stack, XSLT is a wonderful technology with a very poor image problem ... mostly because XSLT 1.0 was 'slow walked' in the browser. 
 
-This paper does a great job at showing how simple it is to easily transform XML content with XSLT 2.0 generating cache friendly, standalone (offline viewable) static websites.
+Most developers formed an opinion on XSLT based on XSLT 1.0 in the browser. I think part of the reason why we do not see as much usage of XSLT to generate static applications is that developers were trying to 'shoe horn' using XSLT 1.0 (in a browser) for the job. There are better ways to do that kind of thing in the browser now (http://www.saxonica.com/ce/index.xml[saxon-ce] comes to mind) but stepping back, XSLT processing in the browser is a distraction ... we have full blooded tools for doing the job right.  
 
-As a bonus, the actual application is pretty interesting as well!
+This paper shows how simple it is to easily transform XML content with XSLT 2.0 generating cache friendly, standalone (offline viewable) static websites.
+
+As a bonus, the actual static application is pretty interesting as well!
 
 
 === The XML expert’s path to web applications 
