@@ -1,15 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Magpie Engineer]]></title><description><![CDATA[My own thoughts on fun with Data, MarkLogic, XQuery, fp, emacs, opencv, unix and anything else that is shiny and catches my eye]]></description><link>http://magpie.engineer</link><image><url>images/magpie.jpg</url><title>Magpie Engineer</title><link>http://magpie.engineer</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 07 Jul 2017 07:19:49 GMT</lastBuildDate><atom:link href="http://magpie.engineer/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[release ml-utils]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Magpie Engineer]]></title><description><![CDATA[My own thoughts on fun with Data, MarkLogic, XQuery, fp, emacs, opencv, unix and anything else that is shiny and catches my eye]]></description><link>http://magpie.engineer</link><image><url>images/magpie.jpg</url><title>Magpie Engineer</title><link>http://magpie.engineer</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 07 Jul 2017 07:24:31 GMT</lastBuildDate><atom:link href="http://magpie.engineer/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[release ml-utils]]></title><description><![CDATA[<div class="paragraph">
 <p>Released a small collection of modest command line utilities for working with MarkLogic.</p>
 </div>
-<div class="paragraph">
-<p>ml-log: retrieve server logs
-ml-hist: retrieve resource metrics (requires gnuplot for graphing)
-ml-status: retrieve resource status
-ml-xq: evaluate xquery
-ml-js: evaluate javascript
-ml-load: load data
-ml-config: manage MarkLogic
-ml-browse: browse resources</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ml-log: retrieve server logs</p>
+</li>
+<li>
+<p>ml-hist: retrieve resource metrics (requires gnuplot for graphing)</p>
+</li>
+<li>
+<p>ml-status: retrieve resource status</p>
+</li>
+<li>
+<p>ml-xq: evaluate xquery</p>
+</li>
+<li>
+<p>ml-js: evaluate javascript</p>
+</li>
+<li>
+<p>ml-load: load data</p>
+</li>
+<li>
+<p>ml-config: manage MarkLogic</p>
+</li>
+<li>
+<p>ml-browse: browse resources</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
 <p><a href="https://github.com/xquery/ml-utils" class="bare">https://github.com/xquery/ml-utils</a></p>
