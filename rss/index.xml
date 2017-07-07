@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Magpie Engineer]]></title><description><![CDATA[My own thoughts on fun with Data, MarkLogic, XQuery, fp, emacs, opencv, unix and anything else that is shiny and catches my eye]]></description><link>http://magpie.engineer</link><image><url>images/magpie.jpg</url><title>Magpie Engineer</title><link>http://magpie.engineer</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 07 Jul 2017 07:24:31 GMT</lastBuildDate><atom:link href="http://magpie.engineer/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[release ml-utils]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Magpie Engineer]]></title><description><![CDATA[My own thoughts on fun with Data, MarkLogic, XQuery, fp, emacs, opencv, unix and anything else that is shiny and catches my eye]]></description><link>http://magpie.engineer</link><image><url>images/magpie.jpg</url><title>Magpie Engineer</title><link>http://magpie.engineer</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 07 Jul 2017 07:43:34 GMT</lastBuildDate><atom:link href="http://magpie.engineer/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[release ml-utils]]></title><description><![CDATA[<div class="paragraph">
 <p>Released a small collection of modest command line utilities for working with MarkLogic.</p>
 </div>
 <div class="ulist">
@@ -40,7 +40,27 @@
 <div class="paragraph">
 <p>This year he reminds us that <strong>technocracy</strong> is not the solution we are seeking
 [Player Piano](<a href="https://en.wikipedia.org/wiki/Player_Piano_(novel)" class="bare">https://en.wikipedia.org/wiki/Player_Piano_(novel)</a>)</p>
-</div>]]></description><link>http://magpie.engineer/2017/07/07/Thanks-Kurt-for-the-rememories.html</link><guid isPermaLink="true">http://magpie.engineer/2017/07/07/Thanks-Kurt-for-the-rememories.html</guid><dc:creator><![CDATA[James Fuller]]></dc:creator><pubDate>Fri, 07 Jul 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Balisage pre-conference symposium program announced]]></title><description><![CDATA[<div id="preamble">
+</div>]]></description><link>http://magpie.engineer/2017/07/07/Thanks-Kurt-for-the-rememories.html</link><guid isPermaLink="true">http://magpie.engineer/2017/07/07/Thanks-Kurt-for-the-rememories.html</guid><dc:creator><![CDATA[James Fuller]]></dc:creator><pubDate>Fri, 07 Jul 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Lazy programmers]]></title><description><![CDATA[<div class="paragraph">
+<p>In the Perl of yore &#8230;&#8203; laziness was considered a <a href="http://threevirtues.com/">virtue</a>. Often it meant one would go far beyond what was needed in the short term in the knowledge that the investment would pay back over the long run.</p>
+</div>
+<div class="paragraph">
+<p>How do you think Perl remains in the top 10 of many language <a href="https://www.tiobe.com/tiobe-index/">lists</a>? It was a relentless refactoring and reworking of Perl and the tools Perl uses along with a deep commitment to testing, quality and trying to do 'the right thing' in code &#8230;&#8203; even if that meant enourmous effort. That kind of approach has inertia that lasts decades in our industry.</p>
+</div>
+<div class="paragraph">
+<p>Lately, I have seen a different definition of 'lazy' creep back into the lexicon of programmers. That is the more common definition where programmers adopt common idioms that promote a kind of lazy thinking. Yes, that is <strong>old man speak</strong> trying to make sense of the impermanance of all the shiny javascript objects that currently astound and amaze us all.</p>
+</div>
+<div class="paragraph">
+<p><strong>Caveat</strong>: I do not for one second that programmers are 'lazy' (as in 'workshy') &#8230;&#8203; they work hard in whatever language the work in. It is efficiency that is catching my eye.</p>
+</div>
+<div class="paragraph">
+<p>It is hard to think of coding as 'work' in the classical definition and the concept of being 'work shy' in the abstract is even more meaningless &#8230;&#8203; if you are not convinced of that statement then I would suggest to go dig a hole 6 feet deep and then come back to me.</p>
+</div>
+<div class="paragraph">
+<p>Our work is abstract and lends itself naturally to taking 'short cuts'. There are no short cut to digging a hole (by hand).</p>
+</div>
+<div class="paragraph">
+<p>Back to the point - where can we find examples of 'laziness as a virtue' in popular languages today ?</p>
+</div>]]></description><link>http://magpie.engineer/2017/07/07/Lazy-programmers.html</link><guid isPermaLink="true">http://magpie.engineer/2017/07/07/Lazy-programmers.html</guid><dc:creator><![CDATA[James Fuller]]></dc:creator><pubDate>Fri, 07 Jul 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Balisage pre-conference symposium program announced]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
 <p>The balisage pre-conference symposium, XML In, Web Out: International Symposium on sub rosa XML, has finally taken <a href="http://balisage.net/XML-In-Web-Out/symposiumProgram.html">shape</a> and (along with the <a href="http://balisage.net/index.html">full conference</a>) it looks to be a good one.</p>
