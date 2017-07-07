@@ -7,15 +7,26 @@
   },
   "site": {
     "title": "Magpie Engineer",
-    "description": "My own thoughts on fun with Data, MarkLogic, XQuery, fp, emacs, opencv, unix and anything else that is shiny and catches my eye",
+    "description": "My own thoughts on fun with Data, MarkLogic, XQuery, fp, emacs, opencv, unix and anything shiny that catches my eye ...",
     "cover": "images/magpie.jpg",
-    "url": "http://magpie.engineer"
+    "url": "http://magpie.engineer",
+    "logo": "",
+    "delay": "",
+    "postsPerPage": "",
+    "googleAnalytics": "",
+    "disqus": ""
   },
   "socialnetwork": {
     "email": "jim.fuller@webcomposite.com",
     "twitter": "https://twitter.com/_james_fuller",
     "linkedin": "http://jim.fuller.name",
-    "github": "https://github.com/xquery"
+    "github": "https://github.com/xquery",
+    "facebook": "",
+    "googleplus": "",
+    "instagram": "",
+    "pinterest": "",
+    "flickr": "",
+    "stackoverflow": ""
   },
   "theme": {
     "name": "uno",
