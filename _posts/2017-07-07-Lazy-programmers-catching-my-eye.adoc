@@ -1,0 +1,19 @@
+= Lazy programmers catching my eye
+
+In the Perl of yore ... laziness was considered a http://threevirtues.com/[virtue]. Often it meant one would go far beyond what was needed in the short term in the knowledge that the investment would pay back over the long run.
+
+How do you think Perl remains in the top 10 of many language https://www.tiobe.com/tiobe-index/[lists]? 
+
+It was a relentless refactoring and reworking of Perl and the tools Perl uses along with a deep commitment to testing, quality and trying to do 'the right thing' in code ... even if that meant enourmous effort. That kind of approach has inertia that lasts decades in our industry.
+
+Lately, I have seen a different definition of 'lazy' creep back into the lexicon of programmers. That is the more common definition where programmers adopt common idioms that promote a kind of lazy thinking. 
+
+Yes, that is *old man speaking* trying to make sense of the impermanance of all the shiny javascript objects that currently astound and amaze us all but frustratingly wink in and out of fashion.
+
+*Caveat*: I do not for one second believe programmers are 'lazy' (as in 'workshy') ... they work hard in whatever language the work in. It is efficiency that is catching my eye.
+
+It is hard to think of coding as 'work' in the classical definition and the concept of being 'work shy' in the abstract is even more meaningless ... if you are not convinced of that statement then I would suggest to go dig a hole 6 feet deep and then come back to me. 
+
+Our work is abstract and lends itself naturally to taking 'short cuts'. There are no short cuts to digging a hole (by hand). 
+
+Back to the point - can we find examples of 'laziness as a virtue' in popular languages today ? 
