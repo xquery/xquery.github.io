@@ -1,11 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Magpie Engineer]]></title><description><![CDATA[My own thoughts on fun with Data, MarkLogic, XQuery, fp, emacs, opencv, unix and anything else that is shiny and catches my eye]]></description><link>http://magpie.engineer</link><image><url>images/magpie.jpg</url><title>Magpie Engineer</title><link>http://magpie.engineer</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 07 Jul 2017 07:11:32 GMT</lastBuildDate><atom:link href="http://magpie.engineer/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Thanks Kurt for the (re)memories ...]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Magpie Engineer]]></title><description><![CDATA[My own thoughts on fun with Data, MarkLogic, XQuery, fp, emacs, opencv, unix and anything else that is shiny and catches my eye]]></description><link>http://magpie.engineer</link><image><url>images/magpie.jpg</url><title>Magpie Engineer</title><link>http://magpie.engineer</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 07 Jul 2017 07:13:28 GMT</lastBuildDate><atom:link href="http://magpie.engineer/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[release ml-utils]]></title><description><![CDATA[<div class="paragraph">
+<p>Released a small collection of modest command line utilities for working with MarkLogic.</p>
+</div>
+<div class="paragraph">
+<p>ml-log: retrieve server logs
+ml-hist: retrieve resource metrics (requires gnuplot for graphing)
+ml-status: retrieve resource status
+ml-xq: evaluate xquery
+ml-js: evaluate javascript
+ml-load: load data
+ml-config: manage MarkLogic
+ml-browse: browse resources</p>
+</div>
+<div class="paragraph">
+<p><a href="https://github.com/xquery/ml-utils" class="bare">https://github.com/xquery/ml-utils</a></p>
+</div>]]></description><link>http://magpie.engineer/2017/07/07/release-ml-utils.html</link><guid isPermaLink="true">http://magpie.engineer/2017/07/07/release-ml-utils.html</guid><dc:creator><![CDATA[James Fuller]]></dc:creator><pubDate>Fri, 07 Jul 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Thanks Kurt for the (re)memories ...]]></title><description><![CDATA[<div class="paragraph">
 <p>I read most of Kurt Vonnegut&#8217;s books as a young teenager.</p>
 </div>
 <div class="paragraph">
 <p>Over the years I often return to them - mostly for pure entertainment but often I prise new little gems of understanding. Lets be clear, Kurt is no Goethe and while he himself despised to be put into the category of 'science fiction' often the topics he wrote about were framed within 'science fiction'.</p>
 </div>
 <div class="paragraph">
-<p>This year he reminds us that <strong>technocracy</strong> is not the solution we are seeking <a href="https://en.wikipedia.org/wiki/Player_Piano_(novel" class="bare">https://en.wikipedia.org/wiki/Player_Piano_(novel</a>)</p>
+<p>This year he reminds us that <strong>technocracy</strong> is not the solution we are seeking
+[Player Piano](<a href="https://en.wikipedia.org/wiki/Player_Piano_(novel)" class="bare">https://en.wikipedia.org/wiki/Player_Piano_(novel)</a>)</p>
 </div>]]></description><link>http://magpie.engineer/2017/07/07/Thanks-Kurt-for-the-rememories.html</link><guid isPermaLink="true">http://magpie.engineer/2017/07/07/Thanks-Kurt-for-the-rememories.html</guid><dc:creator><![CDATA[James Fuller]]></dc:creator><pubDate>Fri, 07 Jul 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Balisage pre-conference symposium program announced]]></title><description><![CDATA[<div id="preamble">
 <div class="sectionbody">
 <div class="paragraph">
