@@ -1,1 +1,40 @@
-{"meta":{"username":"xquery","repositoryName":"xquery.github.io","branch":"master","cname":"magpie.engineer"},"site":{"title":"Magpie Engineer","description":"My own thoughts on fun with Data, MarkLogic, XQuery, fp, emacs, opencv, unix and anything else that is shiny and catches my eye","cover":"images/magpie.jpg","url":"http://magpie.engineer"},"socialnetwork":{"email":"jim.fuller@webcomposite.com","twitter":"https://twitter.com/_james_fuller","linkedin":"http://jim.fuller.name","github":"https://github.com/xquery"},"theme":{"name":"uno","url":"//magpie.engineer/themes/uno"}}
+{
+  "meta": {
+    "username": "xquery",
+    "repositoryName": "xquery.github.io",
+    "branch": "master",
+    "cname": "magpie.engineer"
+  },
+  "site": {
+    "title": "Magpie Engineer",
+    "description": "My own thoughts on fun with Data, MarkLogic, XQuery, fp, emacs, opencv, unix and anything else that is shiny and catches my eye",
+    "cover": "images/magpie.jpg",
+    "url": "http://magpie.engineer"
+  },
+  "socialnetwork": {
+    "email": "jim.fuller@webcomposite.com",
+    "twitter": "https://twitter.com/_james_fuller",
+    "linkedin": "http://jim.fuller.name",
+    "github": "https://github.com/xquery"
+  },
+  "theme": {
+    "name": "uno",
+    "url": "//magpie.engineer/themes/uno"
+  },
+  "urls": {
+    "site": "http://magpie.engineer",
+    "hubpress": "http://magpie.engineer",
+    "theme": "//magpie.engineer/themes/uno",
+    "images": "http://magpie.engineer/images"
+  },
+  "initialisationConfigComponent": {
+    "name": "initialise-configuration",
+    "computed": {},
+    "methods": {},
+    "staticRenderFns": [
+      null,
+      null,
+      null
+    ]
+  }
+}
