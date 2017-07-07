@@ -1,0 +1,5 @@
+= release ml-utils
+
+small set of command line utilities for working with MarkLogic
+
+https://github.com/xquery/ml-utils
