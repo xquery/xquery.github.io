@@ -1,0 +1,938 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Magpie Engineer]]></title><description><![CDATA[My own thoughts on fun with Data, MarkLogic, XQuery, fp, emacs, opencv, unix and anything else that is shiny and catches my eye]]></description><link>http://magpie.engineer</link><image><url>images/magpie.jpg</url><title>Magpie Engineer</title><link>http://magpie.engineer</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 07 Jul 2017 07:11:32 GMT</lastBuildDate><atom:link href="http://magpie.engineer/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Thanks Kurt for the (re)memories ...]]></title><description><![CDATA[<div class="paragraph">
+<p>I read most of Kurt Vonnegut&#8217;s books as a young teenager.</p>
+</div>
+<div class="paragraph">
+<p>Over the years I often return to them - mostly for pure entertainment but often I prise new little gems of understanding. Lets be clear, Kurt is no Goethe and while he himself despised to be put into the category of 'science fiction' often the topics he wrote about were framed within 'science fiction'.</p>
+</div>
+<div class="paragraph">
+<p>This year he reminds us that <strong>technocracy</strong> is not the solution we are seeking <a href="https://en.wikipedia.org/wiki/Player_Piano_(novel" class="bare">https://en.wikipedia.org/wiki/Player_Piano_(novel</a>)</p>
+</div>]]></description><link>http://magpie.engineer/2017/07/07/Thanks-Kurt-for-the-rememories.html</link><guid isPermaLink="true">http://magpie.engineer/2017/07/07/Thanks-Kurt-for-the-rememories.html</guid><dc:creator><![CDATA[James Fuller]]></dc:creator><pubDate>Fri, 07 Jul 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Balisage pre-conference symposium program announced]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>The balisage pre-conference symposium, XML In, Web Out: International Symposium on sub rosa XML, has finally taken <a href="http://balisage.net/XML-In-Web-Out/symposiumProgram.html">shape</a> and (along with the <a href="http://balisage.net/index.html">full conference</a>) it looks to be a good one.</p>
+</div>
+<div class="paragraph">
+<p>Having read the papers I can give a little of the flavor of what to expect.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_welcome">Welcome</h3>
+<div class="sect4">
+<h5 id="_jim_fuller_marklogic">Jim Fuller, Marklogic</h5>
+<div class="paragraph">
+<p>Where yours truly offers observations on the themes comprising the day&#8217;s talks briefly touching upon real world, non-trivial examples of the XML stack working hand in hand with other modern technology stacks.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_xslt_as_a_powerful_static_website_generator_hogrefe_s_clinical_handbook_of_psychotropic_drugs">XSLT as a powerful static website generator: Hogrefe&#8217;s Clinical Handbook of Psychotropic Drugs</h3>
+<div class="sect4">
+<h5 id="_martin_kraetke_gerrit_imsieke_le_tex_publishing_services_gmbh">Martin Kraetke &amp; Gerrit Imsieke, le-tex publishing services GmbH</h5>
+<div class="paragraph">
+<p>This paper reminds me of a quote often repeated at <a href="http://www.marklogic.com">work</a>, something to the effect of:</p>
+</div>
+<div class="quoteblock">
+<blockquote>
+<div class="paragraph">
+<p>Every company has a publishing problem.</p>
+</div>
+</blockquote>
+</div>
+<div class="paragraph">
+<p>High value XML should be leveraged by every company to help solve their publishing problems. Even publishing companies can benefit from reusing single source XML originally created for print to derive rich web and mobile applications.</p>
+</div>
+<div class="paragraph">
+<p>Like much of the XML stack, XSLT is a wonderful technology with a very poor image problem &#8230;&#8203; mostly because XSLT 1.0 was 'slow walked' in the browser.</p>
+</div>
+<div class="paragraph">
+<p>Most developers formed an opinion on XSLT based on XSLT 1.0 in the browser. I think part of the reason why we do not see as much usage of XSLT to generate static applications is that developers were trying to 'shoe horn' using XSLT 1.0 (in a browser) for the job. There are better ways to do that kind of thing in the browser now (<a href="http://www.saxonica.com/ce/index.xml">saxon-ce</a> comes to mind) but stepping back, XSLT processing in the browser is a distraction &#8230;&#8203; we have full blooded tools for doing the job right without the need to involve a browser.</p>
+</div>
+<div class="paragraph">
+<p>This paper shows how simple it is to easily transform XML content with XSLT 2.0 generating cache friendly, standalone (offline viewable) static websites.</p>
+</div>
+<div class="paragraph">
+<p>As a bonus, the actual static application is pretty interesting as well!</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_xml_expert_s_path_to_web_applications">The XML expert’s path to web applications</h3>
+<div class="sect4">
+<h5 id="_anne_br_ggemann_klein_technical_university_of_munich_tum">Anne Brüggemann-Klein, Technical University of Munich (TUM)</h5>
+<div class="paragraph">
+<p>This paper is a good illustration of how  the XML stack can underpin a thin-client <a href="https://en.wikipedia.org/wiki/XRX_(web_application_architecture)">XRX</a> web application.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>OO domain driven design</p>
+</li>
+<li>
+<p>event driven (with statecharts)</p>
+</li>
+<li>
+<p><a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller">MVC</a></p>
+</li>
+<li>
+<p>observer pattern and server push with multi-client Web applications</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>With hard won advice provided along the way.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_meta_data_morphosis">Meta(data)morphosis</h3>
+<div class="sect4">
+<h5 id="_ashley_m_clark_sarah_connell_northeastern_university">Ashley M. Clark, Sarah Connell, Northeastern University</h5>
+<div class="paragraph">
+<p>This paper nails the symposium topic squarely illustrating how the XML stack is highly capable in handling all the mess that comes with 'metamorphosis of a 'real world' corpus (warts and all) intended for web publication.</p>
+</div>
+<div class="paragraph">
+<p>I used to say if I were marooned on a desert island I would take Perl with me (or lisp) &#8230;&#8203; nowadays it would be the XML stack as it gives me a lot of practical (escape) routes for working with real problems.</p>
+</div>
+<div class="paragraph">
+<p>The authors show how the XML Stack + web stack du jour (no passive aggro intended &#8230;&#8203;) can work together.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_messaging_format_persistence_in_healthcare_gov_and_other_large_enterprise_systems">Messaging format persistence in Healthcare.gov and other large enterprise systems</h3>
+<div class="sect4">
+<h5 id="_damon_feldman_marklogic_corporation">Damon Feldman, MarkLogic Corporation</h5>
+<div class="paragraph">
+<p>Large systems come with more problems due to expanded scope. Need to integrate with a few databases &#8230;&#8203; in the hyper enterprise make that 50 or 100 databases. Need to respond to searches in milliseconds, in the hyper enterprise do that with a few 100k people at the same time &#8230;&#8203; and so forth and so on &#8230;&#8203;.</p>
+</div>
+<div class="paragraph">
+<p>It is not just that problems are 'super sized' it is also true that new complexity arises from integrating already complex systems.</p>
+</div>
+<div class="paragraph">
+<p>The author provides deep insight on how simplifying design and modelling decisions aided by the XML stack helps with solving the hardest problems in our industry today.</p>
+</div>
+<div class="paragraph">
+<p>Most will have heard from the news of the challenges of healthcare.gov, though many will not know how the XML Stack working alongside other technologies helped solve those challenges under the harshest operating conditions.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_xquery_is_not_just_a_query_language">XQuery Is Not (Just) a Query Language</h3>
+<div class="sect4">
+<h5 id="_gregory_murray_princeton_theological_seminary">Gregory Murray, Princeton Theological Seminary</h5>
+<div class="paragraph">
+<p>The author provides excellent advice on using modern XQuery as a fully mature functional programming language.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>enabling MVC architecture</p>
+</li>
+<li>
+<p>ensuring functions are testable</p>
+</li>
+<li>
+<p>using RESTXQ for URL rewriting</p>
+</li>
+<li>
+<p>isolating implementation-specific functions into separate modules</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>XQuery hits a sweet spot and a highly productive language - something near and dear to my heart and I think many will find the author&#8217;s talk full of great advice and tips for working with modern XQuery.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_the_kiln_xml_publishing_framework">The Kiln XML Publishing Framework</h3>
+<div class="sect4">
+<h5 id="_paul_caton_miguel_vieira_king_s_college_london">Paul Caton &amp; Miguel Vieira, King&#8217;s College, London</h5>
+<div class="paragraph">
+<p>The last talk of the day demonstrates how the XML Stack provides a highly flexible foundation for provisioning a broad variety of web applications, using different sources enabling complex features such as:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>search</p>
+</li>
+<li>
+<p>pdf/epub format</p>
+</li>
+<li>
+<p>RDF (with <a href="https://projects.eclipse.org/projects/technology.rdf4j">Sesame</a>)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>all possible via non technical administrative interfaces.</p>
+</div>
+<div class="paragraph">
+<p>We see lots of 'kitchen sink' type approaches in other stacks for this kind of thing &#8230;&#8203; personally I feel that the XML stack is a logical foundation and facade for providing stable yet flexible architectures which 'bend with the wind' for such frameworks.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_panel_discussion_multi_stack_harmony">Panel Discussion: Multi Stack Harmony</h3>
+<div class="paragraph">
+<p>TBD</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_register_to_attend_now">Register to attend now</h3>
+<div class="paragraph">
+<p>If any of this sounds interesting I urge you to register now.</p>
+</div>
+<div class="paragraph">
+<p><a href="http://www.balisage.net/XML-In-Web-Out/index.html" class="bare">http://www.balisage.net/XML-In-Web-Out/index.html</a></p>
+</div>
+</div>]]></description><link>http://magpie.engineer/2016/05/24/Balisage-pre-conference-symposium-program-announced.html</link><guid isPermaLink="true">http://magpie.engineer/2016/05/24/Balisage-pre-conference-symposium-program-announced.html</guid><dc:creator><![CDATA[James Fuller]]></dc:creator><pubDate>Tue, 24 May 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Is it me ? What am I doing wrong ...]]></title><description><![CDATA[<div class="paragraph">
+<p>We are getting some great submissions to <a href="http://www.balisage.net/XML-In-Web-Out/index.html">Balisage 2016 symposium</a> though all from men and <strong>none</strong> from women.</p>
+</div>
+<div class="paragraph">
+<p>So for those of the <a href="http://www.livescience.com/21647-men-women-iq-scores.html">smarter sex</a> I will eschew expiating and provide a list to cajole, convince if not amuse:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>No, you will not be the only female in attendence, after all the Balisage conference was founded and chaired by the one and only <a href="http://www.mulberrytech.com/people/usdin/index.html">B. Tommie Usdin</a>.</p>
+</li>
+<li>
+<p>You may see (and participate if you like) in some geeky games of <a href="http://www.playwerewolf.co/">Werewolf</a> but Balisage is a completely friendly and safe place for all the 'villagers'.</p>
+</li>
+<li>
+<p>Speakers are humans not TV personalities or rockstars&#8230;&#8203; as it states on the Balisage website 'The people making Balisage include markup theoreticians and practitioners, data modelers, designers, architects, and both aficionados and deep thinkers. We work as software developers, system architects, academics, integrators, librarians, data miners, lexicographers, integrators, archivists, document managers, standards developers, programmers, and publishers.' If this sounds familiar then you should consider making a submission.</p>
+</li>
+<li>
+<p>Often the hardest step can be deciding on which idea to write about - personally I start with writing bullet lists - feel free to drop me an informal email at <a href="mailto:jim.fuller@marklogic.com">jim.fuller@marklogic.com</a> and I will provide quick feedback.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>So what is stopping you?</p>
+</div>
+<div class="paragraph">
+<p><a href="http://www.balisage.net/XML-In-Web-Out/index.html" class="bare">http://www.balisage.net/XML-In-Web-Out/index.html</a></p>
+</div>
+<div class="paragraph">
+<p>Deadlines:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>22 April 2016 — Paper submissions due</p>
+</li>
+<li>
+<p>21 May 2016 — Speakers notified</p>
+</li>
+<li>
+<p>8 July 2016 — Final papers due</p>
+</li>
+<li>
+<p>1 August 2016 — XML In, Web Out: International Symposium on sub rosa XML</p>
+</li>
+<li>
+<p>2–5 August 2016 — Balisage: The Markup Conference</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>If you have any submission ideas, questions or advice for me feel free to email me at <a href="mailto:jim.fuller@marklogic.com">jim.fuller@marklogic.com</a> , would love to hear from you.</p>
+</div>]]></description><link>http://magpie.engineer/2016/04/07/Is-it-me-What-am-I-doing-wrong.html</link><guid isPermaLink="true">http://magpie.engineer/2016/04/07/Is-it-me-What-am-I-doing-wrong.html</guid><dc:creator><![CDATA[James Fuller]]></dc:creator><pubDate>Thu, 07 Apr 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[XML Prague 2016 this year was great]]></title><description><![CDATA[<div class="paragraph">
+<p>I left this years <a href="http://www.xmlprague.cz">conference</a> brimming with energy and excited for the year to come.</p>
+</div>
+<div class="paragraph">
+<p>All the talks were of a high standard and I would recommend checking out the proceedings and related presentations/code.</p>
+</div>
+<div class="paragraph">
+<p>A few talks sparked my interest.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Romain Deltour&#8217;s double barrel of EPUB ()</p>
+</li>
+<li>
+<p>Michael Kay&#8217;s XSLT 3.0 compiled stylesheets in JS</p>
+</li>
+<li>
+<p>James Wrights XQuery promises</p>
+</li>
+<li>
+<p>Charles Greer pulling at the entities and relationships in a document database</p>
+</li>
+<li>
+<p>George Bina&#8217;s reprisal of Magic URLs</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>don&#8217;t take my word &#8230;&#8203; check out the <a href="https://www.youtube.com/playlist?list=PLQpqh98e9RgWWlRDQv4W6T8-jPST4v4YZ">videos</a> of all the talks for yourselves</p>
+</div>]]></description><link>http://magpie.engineer/2016/02/18/XML-Prague-2016-this-year-was-great.html</link><guid isPermaLink="true">http://magpie.engineer/2016/02/18/XML-Prague-2016-this-year-was-great.html</guid><dc:creator><![CDATA[James Fuller]]></dc:creator><pubDate>Thu, 18 Feb 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Balisage pre-conference symposium 2016: XML in, Web Out]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>For many years, every August I ruefully wondered if I would ever get a chance to attend <a href="http://balisage.net">Balisage</a>, the premiere Markup conference, a required pilgrimage for any self respecting XML devotee.</p>
+</div>
+<div class="paragraph">
+<p>However, living in <a href="http://www.czechtourism.com/a/prague/">Prague</a>, it is far away and always coincided with summer holidays or birthday celebrations. So I had to be content with reading the excellent <a href="http://www.balisage.net/Proceedings/index.html">proceedings</a> and grabbing snatches of conversation overheard from those fortunate enough to have attended.</p>
+</div>
+<div class="paragraph">
+<p>Well this year a stroke of unexpected luck!</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;ve been asked to chair the <a href="http://www.balisage.net/XML-In-Web-Out/index.html">Balisage 2016 preconference</a> which I was honored to accept if not a little frightened for taking on the responsibility of ensuring the pre conference continues down the pedigreed path of previous efforts.</p>
+</div>
+<div class="paragraph">
+<p>So with summer holidays replanned and a trip to Washington booked I finally get the chance to attend a thought provoking conference about much more then Markup.</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_xml_in_web_out">XML in, Web out</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Working for <a href="http://www.marklogic.com">MarkLogic</a> I get to see, at scale, what works in the real world. The hyper successful projects, which innovate and incite radical positive change, are commonly those that embrace heterogeneous data formats which cut across the lay lines promulgated by <a href="https://en.wikipedia.org/wiki/Conway%27s_law">Conways law</a>. Many of these projects use the XML  stack as a central component to their most critical applications and its inspiring to see how well the XML stack compliments older and newer technology stacks (a case of 'The whole is greater than the sum of its parts').</p>
+</div>
+<div class="paragraph">
+<p>The <a href="http://www.balisage.net/XML-In-Web-Out/index.html">XML in; Web out preconference</a> will be a forum and showcase for how the XML Technology stack provides a natural 'backbone' for building Great Web Applications.</p>
+</div>
+<div class="sect2">
+<h3 id="_call_for_participation_is_it_worth_it">Call For Participation - Is it worth it ?</h3>
+<div class="paragraph">
+<p>So the call goes out to practioners who are building web applications with the XML stack - we want your <a href="http://www.balisage.net/XML-In-Web-Out/index.html">submissions</a>.</p>
+</div>
+<hr>
+<div class="paragraph">
+<p><em>'The work is its own reward'</em></p>
+</div>
+<hr>
+<div class="paragraph">
+<p>The preceding statement comes to mind when contributing to conferences and writing papers. Trying to fit in writing a paper in the jumble of Life, Work and <em>Existence</em> is a challenge.</p>
+</div>
+<div class="paragraph">
+<p>The challenge continues when a paper is reviewed by exacting peers with the possibility of having to make a presentation in front of an audience; which seems less of a reward and more like a recipe for a case of nerves and cold sweat. Then there is the impossible juggling of carving out time and energy to travel and spend a few days attending a conference, convincing spouses and cajoling bosses that its worth it.</p>
+</div>
+<div class="paragraph">
+<p>So if I have not put you completely off submitting a paper, allow me to say some of the benefits.</p>
+</div>
+<hr>
+<div class="paragraph">
+<p><em>'Spend half the time "<strong>doing</strong>" and half the time "<strong>learning</strong>"'</em></p>
+</div>
+<hr>
+<div class="paragraph">
+<p>The above unattributed quote (not me) sums up my rationalisation attending conferences. Often I am doing/learning at the same time but I think you all understand what I mean.</p>
+</div>
+<div class="paragraph">
+<p>Conferences are my time to <strong>learn</strong> and as our profession is singularly autodidatic it is imperative to weave self education into the routine.</p>
+</div>
+<div class="paragraph">
+<p>Preparing for a conference is my way of regular 'saw sharpening' on topics that interest me. Attending a conference and listening to talks &amp; meeting people is a way of learning about topics I did not have the sense enough to think of myself.</p>
+</div>
+<div class="paragraph">
+<p>If you are interested in becoming a better practioner there are few better ways to achieve it then taking on the challenge of submitting a paper. It can be uncomfortable, trying, challenging and exciting but well worth it.</p>
+</div>
+<div class="paragraph">
+<p>You&#8217;ve got plenty of time &#8230;&#8203;</p>
+</div>
+<div class="sect3">
+<h4 id="_deadlines">Deadlines:</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>22 April 2016 — Paper submissions due</p>
+</li>
+<li>
+<p>21 May 2016 — Speakers notified</p>
+</li>
+<li>
+<p>8 July 2016 — Finals due</p>
+</li>
+<li>
+<p>1 August 2016 — XML In, Web Out: International Symposium on sub rosa XML</p>
+</li>
+<li>
+<p>2–5 August 2016 — Balisage: The Markup Conference</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_how">How:</h4>
+<div class="paragraph">
+<p>Submit full papers or substantial drafts in XML to <a href="mailto:info@balisage.net">info@balisage.net</a></p>
+</div>
+<div class="paragraph">
+<p>Even if you do not have a fully formed idea feel free to send through your thoughts or <a href="http://twitter.com/_james_fuller">DM me @_james_fuller</a> I would love to hear from you.</p>
+</div>
+</div>
+</div>
+</div>
+</div>]]></description><link>http://magpie.engineer/2016/01/30/Balisage-pre-conference-symposium-2016-XML-in-Web-Out.html</link><guid isPermaLink="true">http://magpie.engineer/2016/01/30/Balisage-pre-conference-symposium-2016-XML-in-Web-Out.html</guid><dc:creator><![CDATA[James Fuller]]></dc:creator><pubDate>Sat, 30 Jan 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[XML Prague 2016]]></title><description><![CDATA[<div class="paragraph">
+<p>It does not seem possible that this is the <a href="http://www.xmlprague.cz/archive/" class="bare">http://www.xmlprague.cz/archive/</a> [11th version] of <a href="http://www.xmlprague.cz/">XML Prague</a>, but yes once again XML Prague 2016 is about to come to my domicile, giving me a chance to learn from many respected practioners in the industry.</p>
+</div>
+<div class="paragraph">
+<p>Over the decade I&#8217;ve stepped back from helping out organising the event and I personally think <a href="http://twitter.com/jirkakosek">Jirka Kosek</a> does a much better job at pulling off the impossible balancing act of keeping things smoothly running and getting the absolute highest quality speakers talking about interesting (and sometimes surprising) topics.</p>
+</div>
+<div class="paragraph">
+<p>My request to anyone attending this year is to give Jirka thanks for getting to this rare milestone ( bring him a small token from lands afar) - I know I will be buying him a beer !</p>
+</div>
+<div class="paragraph">
+<p>This years talks promise much cranial stimulation:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Transforming JSON using XSLT 3.0</em>, Michael Kay, Saxonica</p>
+</li>
+<li>
+<p><em>Schematron QuickFix – a simple language to specify the actions that will be used to fix the Schematron detected issues, layered on top of XPath and XSLT, and integrated within Schematron schemas through the annotation support</em>, Octavian Nadolu, Syncro Soft and Nico Kutscherauer, data2type GmbH</p>
+</li>
+<li>
+<p><em>The Power of Promises and Parallel XQuery Execution</em>, James Wright</p>
+</li>
+<li>
+<p><em>Subjugating Data Flow Programming</em>, Alex Miłowski and Norman Walsh, MarkLogic</p>
+</li>
+<li>
+<p><em>Define and Conquer – Using Semantic XML for Functional Software Specifications</em>, Patrik Stellmann, GDV DL</p>
+</li>
+<li>
+<p><em>From XML to RDF step by step: approaches for leveraging XML workflows with linked data</em>, Marta Borriello, Vistatec, Christian Dirschl, Wolters Kluwer Deutschland GmbH, Axel Polleres, Vienna University of Economics and Business (WU), Phil Ritchie, Vistatec, Frank Salliau, iMinds, Felix Sasaki, DFKI / W3C Fellow, Giannis Stoitsis, Agro-Know</p>
+</li>
+<li>
+<p><em>Standards update: EPUB 3.1</em>, Romain Deltour, DAISY</p>
+</li>
+<li>
+<p><em>Extending CSS with XSL-FO, XSL-FO with CSS</em>, Tony Graham, Antenna House</p>
+</li>
+<li>
+<p><em>Validating office documents in the publishing production workflow</em>, Andrew Sales, Andrew Sales Digital Publishing Limited</p>
+</li>
+<li>
+<p><em>Virtual Document Management</em>, Ari Nordström, Creative Words</p>
+</li>
+<li>
+<p><em>Entities and Relationships in a Document Database</em>, Charles Greer, MarkLogic</p>
+</li>
+<li>
+<p><em>Data Just Wants to Be Format-Neutral</em>, Steven Pemberton, CWI</p>
+</li>
+<li>
+<p><em>Accessible EPUB: let’s do it!</em>, Romain Deltour, DAISY</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>With a slightly different format, starting with preconference day on Thursday, a full day of talks Friday and half day Saturday I really like this new format as people can experience more of the city and the possibility of celebrating Valentine&#8217;s day.</p>
+</div>
+<div class="paragraph">
+<p>I&#8217;m trying to jam out a version of <a href="https://github.com/xquery/rxq">RXQ</a> to release during the conference &#8230;&#8203; what software or ideas are you bringing ? <a href="http://www.xmlprague.cz/conference-registration/">Register now</a> !</p>
+</div>
+<div class="paragraph">
+<p><a href="http://lanyrd.com/2016/xmlprague/">Here is the XML Prague lanyrd page</a></p>
+</div>]]></description><link>http://magpie.engineer/2016/01/23/XML-Prague-2016.html</link><guid isPermaLink="true">http://magpie.engineer/2016/01/23/XML-Prague-2016.html</guid><dc:creator><![CDATA[James Fuller]]></dc:creator><pubDate>Sat, 23 Jan 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Not your Father's XQuery]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>Last year, I embarrassed myself slightly by losing patience with someone who was blindly slagging off <a href="https://www.w3.org/TR/xslt-30/">XSLT</a>.</p>
+</div>
+<div class="paragraph">
+<p>What the (unnamed) individual did not realise was that they were talking about an ancient version of <a href="https://www.w3.org/TR/xslt">XSLT</a>. We can partially blame browser built in support of v1.0 (almost to the point where I think we should lobby for removal of XSLT 1.0 from all browsers!).</p>
+</div>
+<div class="paragraph">
+<p>Even with the existance of the excellent <a href="http://www.saxonica.com/ce/index.xml">SAXON-CE XSLT v2.0</a> implementation for javascript, its hard to get folks to take another look at XSLT in a browser context (that won&#8217;t stop me from using it!).</p>
+</div>
+<hr>
+<div class="paragraph">
+<p><em>Observation: If javascript v1.0 was used in the browser would it enjoy the broad usage it has today?</em></p>
+</div>
+<hr>
+<div class="paragraph">
+<p>I should soften my stance a little - I have not been as charitable with younger programmers as older programmers were with me when I was first learning the trade. The rate of change in our industry is ridiculous and expecting newcomers to have all the 'context' about any particular programming language is quite impossible.</p>
+</div>
+<div class="paragraph">
+<p>The onus is upon those with the 'context' to communicate what a programming language is today.</p>
+</div>
+<hr>
+<div class="paragraph">
+<p><a href="https://www.w3.org/TR/xquery-31/">XQuery</a> is undergoing a similar situation where developers are forming opinions based on v1.0 implementations of the language. While most of us have known for a while about XQuery 3.0 precious little indication of this change is apparant for new users (searching google &#8230;&#8203; hence this article).</p>
+</div>
+<div class="paragraph">
+<p>To feel like you are travelling back in time (or to another universe) just take a look at how xquery gets used in any of <a href="http://www.oracle.com/technetwork/database-features/xmldb/index-087544.html">Oracle</a> or <a href="http://beyondrelational.com/modules/2/blogs/28/posts/10279/xquery-labs-a-collection-of-xquery-sample-scripts.aspx">Microsoft&#8217;s</a> database offerings.</p>
+</div>
+<div class="paragraph">
+<p>When I look at many of these XQuery examples, in those environments, my eyes go blurry and I feel light headed.</p>
+</div>
+<div class="paragraph">
+<p>What is interesting is that there has been recent work in XQuery in some products, for example there is XQuery 3.0 functionality listed in Oracle documentation for <a href="https://docs.oracle.com/cd/E49465_01/doc.23/e49333/oxh.htm#BDCUG541">'Oracle XQuery for Hadoop'</a>. How a developer could ever find this out without digging (as I did) I do not know.</p>
+</div>
+<div class="paragraph">
+<p>There is also the paradox of there being many XQuery v1.0 processors in existance &#8230;&#8203; one example, the <a href="http://doc.qt.io/qt-5/xmlprocessing.html">QT XQuery engine</a> is set in a popular set of c++ extensions, provides good support for XQuery v1.0. As with XSLT I think we need to speak more about the latest version of the language.</p>
+</div>
+<hr>
+<div class="paragraph">
+<p><em>Observation: XQuery v1.0 was <mark>good</mark> but XQuery 3.# makes XQuery a highly capable <mark>functional programming language</mark>.</em></p>
+</div>
+<hr>
+<div class="paragraph">
+<p>What is true, is that <strong>anyone</strong> using XQuery in those environments would conclude XQuery is:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>only for querying XML</p>
+</li>
+<li>
+<p>an unwelcome <em>hitchhiker</em> embedded in much simpler SQL</p>
+</li>
+<li>
+<p>not very elegant</p>
+</li>
+<li>
+<p>stale eg. developed in a previous decade</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>As a daily user of modern XQuery, the most exciting and defining characteristics of XQuery are the advancements its made over the past couple of years.</p>
+</div>
+<hr>
+<div class="paragraph">
+<p><em>Observation: We should try to clarify what XQuery is today.</em></p>
+</div>
+<hr>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_what_is_xquery_today">What is XQuery today ?</h3>
+<div class="paragraph">
+<p>I will reproduce the current <a href="https://en.wikipedia.org/wiki/XQuery">Wikipedia definition of XQuery</a>:</p>
+</div>
+<div class="paragraph">
+<p><em>XQuery is a query and functional programming language that queries and transforms collections of structured and unstructured data, usually in the form of XML, text and with vendor-specific extensions for other data formats (JSON, binary, etc.).</em></p>
+</div>
+<div class="paragraph">
+<p>Even this definition is a bit out of date, as the latest specification (<a href="https://www.w3.org/TR/xquery-31/">XQuery v3.1</a>) which is a W3C Candidate Recommendation adds <a href="https://www.w3.org/TR/2015/CR-xquery-31-20151217/#id-maps">maps</a>, <a href="https://www.w3.org/TR/2015/CR-xquery-31-20151217/#id-arrays">arrays</a> and <a href="https://www.w3.org/TR/2015/CR-xquery-31-20151217/#id-string-constructors">string constructors</a> to the language making it easy to work with other text based formats like JSON, html5, SPARQL, etc allowing XQuery to used as a <em>meta</em> approach to working across many different data formats.</p>
+</div>
+<div class="paragraph">
+<p>An excellant source of runnable XQuery examples is provided by eXistDB here:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://exist-db.org/exist/apps/demo/examples/basic/basics.html">basic examples</a></p>
+</li>
+<li>
+<p><a href="http://exist-db.org/exist/apps/demo/examples/basic/xquery3.html">XQuery 3.0 &amp; 3.1 examples</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>And many of the historical XML databases have now become general databases able to natively represent JSON and work with a range of data formats (as well as triples,SQL, etc):</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://joewiz.org/2015/01/18/a-preview-of-xquery-3.1s-json-support-in-exist/">preview of JSON support with XQuery 3.1 in existDB</a></p>
+</li>
+<li>
+<p><a href="https://docs.marklogic.com/8.0/guide/app-dev/json">Working with JSON in Marklogic</a></p>
+</li>
+<li>
+<p><a href="http://fgeorges.org/papers/fgeorges-xmlss-xslt-trends-2014.pdf">Florent Georges excellant&#8217;Trends in XSLT and XQuery'</a> gives a nice overview</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_what_is_xquery_1_0">What is XQuery 1.0 ?</h3>
+<div class="paragraph">
+<p>The <a href="https://www.w3.org/TR/xquery/">XQuery 1.0</a> spec was released circa 2010. With a long gestation period many vendors had already developed full blown processors before ratification of the specification as a Recommendation.</p>
+</div>
+<div class="paragraph">
+<p>Some products use early draft versions of XQuery 1.0 - for example Microsoft SQL server decided XQuery 2004 draft was sufficient and never bothered to update.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_what_is_xquery_2_0">What is XQuery 2.0 ?</h3>
+<div class="paragraph">
+<p>The WG decided to skip this version number to align with XSLT v3.0.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_what_is_xquery_3">What is XQuery 3.#?</h3>
+<div class="paragraph">
+<p>This is the minimum version that you should be trying to use.</p>
+</div>
+<div class="paragraph">
+<p>The following products contain an XQuery processor with 3.-ou can get download XQuery processor from:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="http://www.saxonica.com/products/feature-matrix-9-7.xml">Saxon</a></p>
+</li>
+<li>
+<p><a href="http://exist-db.org">eXist</a></p>
+</li>
+<li>
+<p><a href="http://basex.org/">basex</a></p>
+</li>
+<li>
+<p>some XQuery 3.0 support in <a href="http://developer.marklogic.com/">MarkLogic</a></p>
+</li>
+<li>
+<p>most XQuery 3.0 support in <a href="http://xqilla.sourceforge.net/HomePage">XQilla</a></p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_what_is_xquery_3_0">What is XQuery 3.0 ?</h4>
+<div class="paragraph">
+<p>The <a href="https://www.w3.org/TR/xquery-30/">XQuery 3.0</a> spec was released circa 2014 and includes a raft of fixes and new features to the language focusing on:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>ease of use</p>
+</li>
+<li>
+<p>advanced grouping and selection</p>
+</li>
+<li>
+<p>functions as first class citizen</p>
+</li>
+<li>
+<p>annotations</p>
+</li>
+<li>
+<p>new functions for math, formatting, string manipulation</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>These improvements make XQuery 3.0 a full blown functional programming language which works well with text and xml.</p>
+</div>
+<div class="paragraph">
+<p>The newer XQuery spec do a clear job at listing out 'whats new'.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://www.w3.org/TR/xquery-30/">XQuery 3.0 Specification</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Some of the new features like:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>try/catch</p>
+</li>
+<li>
+<p>string concat with ||</p>
+</li>
+<li>
+<p>mapping operator ! for simple for expressions</p>
+</li>
+<li>
+<p>count clause in FLWOR Expressions</p>
+</li>
+<li>
+<p>Switch expressions</p>
+</li>
+<li>
+<p>Computed namespace constructors</p>
+</li>
+<li>
+<p>Output declarations</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>make the language more complete and formalise many common extensions found out in the wild.</p>
+</div>
+<div class="paragraph">
+<p>Others enable novel grouping and selection mechanisms:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>group by clause in FLWOR Expressions</p>
+</li>
+<li>
+<p>tumbling window and sliding window in FLWOR Expressions</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The most exciting (for this programmer) is fully embedding the notion of <strong>functional programming</strong> into the language. For example, inline functions are expressions and can appear anywhere an expression is allowed.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>let $sq :=
+ function($i as xs:integer) as xs:integer {
+ $i * $i
+ }</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>And variables with the function type can be passed around to other functions.</p>
+</div>
+<div class="paragraph">
+<p>For example, here is a list of built in functions that accept a function.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>fn:filter($function, $sequence)</p>
+</li>
+<li>
+<p>fn:map($function, $sequence)</p>
+</li>
+<li>
+<p>fn:map-pairs($function, $seq1, $seq2)</p>
+</li>
+<li>
+<p>fn:fold-left($function, $initial, $sequence)</p>
+</li>
+<li>
+<p>fn:fold-right($function, $initial, $sequence)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Implementing the common fold, map and filtering idioms.</p>
+</div>
+<div class="paragraph">
+<p>Along with some helper functions to introspect information:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>function-lookup($function)</p>
+</li>
+<li>
+<p>function-name($function)</p>
+</li>
+<li>
+<p>function-arity($function)</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Having first class functions in a language allows implementation of dynamic dispatch and provide polymorphism-like features. It also allows developers to avoid the cognitive load of writing functions with explicit recursion which I find a common problem teaching others how to use xquery.</p>
+</div>
+<div class="paragraph">
+<p>Next up, <strong>annotations</strong>, we see the addition of annotations eg. the ability to put metadata on variables and functions with annotation. This enables all kinds of fun stuff &#8230;&#8203; for example <a href="http://exquery.github.io/exquery/exquery-restxq-specification/restxq-1.0-specification.html">RESTXQ</a> is predicated on the ability to define annotations.</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlight"><code>declare
+%rest:GET
+%rest:path("/stock/widget/{$id}")
+function local:widget($id as xs:int) {
+  fn:collection("/db/widgets")/widget[@id eq $id]
+};</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Lastly, there is a bunch of other new functions:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>format-date(), format-number(), generateid(),unparsed-text() etc</p>
+</li>
+<li>
+<p>trig/math functions: sin(), cos(), sqrt() etc</p>
+</li>
+<li>
+<p>analyze-string()</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>with some functions being adopted from latest XSLT:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>head(), tail(), path()</p>
+</li>
+<li>
+<p>environment-variable(), uri-collection()</p>
+</li>
+<li>
+<p>parse(), serialize()</p>
+</li>
+<li>
+<p>Function assertions in function tests.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_what_is_xquery_3_1">What is XQuery 3.1 ?</h4>
+<div class="paragraph">
+<p><a href="https://www.w3.org/TR/xquery-31/">XQuery 3.1</a> is in Candidate recomendation status, which means its not yet a W3C recommendation but very close.</p>
+</div>
+<div class="paragraph">
+<p>The main enhancements revolve around:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>maps</p>
+</li>
+<li>
+<p>arrays</p>
+</li>
+<li>
+<p>string constructors</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>all which make it much easier to work with other data formats (like json, etc).</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_summary">Summary</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>If you got this far then you already know the summary.</p>
+</div>
+<div class="paragraph">
+<p><strong>use XQuery 3.0, not XQuery 1.0 !</strong></p>
+</div>
+<div class="paragraph">
+<p>And tell your friends, family and fellow programmers about this excellent functional programming language.</p>
+</div>
+</div>
+</div>]]></description><link>http://magpie.engineer/2016/01/23/Not-your-Fathers-XQuery.html</link><guid isPermaLink="true">http://magpie.engineer/2016/01/23/Not-your-Fathers-XQuery.html</guid><dc:creator><![CDATA[James Fuller]]></dc:creator><pubDate>Sat, 23 Jan 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Learning XQuery Resources]]></title><description><![CDATA[<div class="paragraph">
+<p>a list of resources to learn XQuery</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>curated list of <a href="https://github.com/joewiz/learnxquery">Learning XQuery resources</a></p>
+</li>
+<li>
+<p>download an XQuery processor (<a href="http://www.saxonica.com/welcome/welcome.xml">Saxon</a>, <a href="http://xqilla.sourceforge.net/HomePage">XQilla</a>, <a href="http://www.zorba.io/">Zorba</a>)</p>
+</li>
+<li>
+<p>download a database that supports XQuery and start learning (<a href="http://developer.marklogic.com">MarkLogic</a>, <a href="http://exist-db.org/exist/apps/homepage/index.html">exist DB</a>, <a href="http://basex.org/">basex</a>)</p>
+</li>
+<li>
+<p>follow <a href="http://twitter.com/xquery">@XQuery</a></p>
+</li>
+<li>
+<p>goto great conferences (<a href="http://www.xmlprague.cz">XML Prague</a>, <a href="http://xmllondon.com">XML London</a>, <a href="http://www.xmlamsterdam.com/">XML Amsterdam</a>, <a href="http://xmlsummerschool.com/">XML Summer School</a>, <a href="http://balisage.net">Balisage</a>)</p>
+</li>
+<li>
+<p><a href="http://www.marklogic.com/training-courses/developing-marklogic-applications-i-xquery/">free training !</a> at MarkLogic University</p>
+</li>
+<li>
+<p><a href="http://x-query.com/pipermail/talk/" class="bare">http://x-query.com/pipermail/talk/</a> [xquery mailing list]</p>
+</li>
+<li>
+<p><a href="http://stackoverflow.com/questions/tagged/xquery">XQuery at StackOverflow</a></p>
+</li>
+<li>
+<p><a href="http://www.amazon.com/XQuery-Search-Across-Variety-Data/dp/1491915102/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1453555256&amp;sr=1-1&amp;keywords=xquery"> Priscilla Walmsley&#8217;s excellant uptodate book  'XQuery: Search Across a Variety of XML Data'</a></p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>give me a shout (<a href="http://twitter.com/_james_fuller">@_james_fuller</a>) if you want me to add anything.</p>
+</div>]]></description><link>http://magpie.engineer/2016/01/23/Learning-XQuery-Resources.html</link><guid isPermaLink="true">http://magpie.engineer/2016/01/23/Learning-XQuery-Resources.html</guid><dc:creator><![CDATA[James Fuller]]></dc:creator><pubDate>Sat, 23 Jan 2016 00:00:00 GMT</pubDate></item><item><title><![CDATA[Giving up @XQuery, but not on XQuery]]></title><description><![CDATA[<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>A surprising number of people have asked me the question:</p>
+</div>
+<div class="paragraph">
+<p><em>'Why did you give up the @XQuery twitter account ?'</em></p>
+</div>
+<div class="paragraph">
+<p>So many that I should reiterate the reasons why here.</p>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_time_and_space">Time and space</h3>
+<div class="paragraph">
+<p>Admittedly, it takes very little time to maintain any twitter account. Even so every year I do a 'spring cleaning' (sic: in January) and reallocate my time commitments. However big or small I make a list of my commitments then decide where I would like to spend my open source time as contrasted to everything else I do (Life, Work, etc). I did a similar reorg 5+ years ago when I moved from working solely in XSLT to XQuery; though in that instance I stopped trying to teach others of the wonders of XSLT - much easier for programmers to grok XQuery (though I use XSLT often and very much enjoy it).</p>
+</div>
+<div class="paragraph">
+<p>Last year I wanted to invest some time refreshing myself in c/cplusplus11/14 which makes c/cplusplus interesting again (CLANG, llvm, fp). Breaking off this 'rust' lets me efficiently apply some ideas to some new open source projects as well as learn from other genius works (<a href="http://xqilla.sourceforge.net/HomePage">XQilla</a>, etc).</p>
+</div>
+<div class="paragraph">
+<p>This year my focus is on:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>xproc v2 processor - this work is related to the new version of XProc</p>
+</li>
+<li>
+<p>xquery- updating <a href="https://github.com/xquery/rxq">RXQ</a> an implementation of <a href="http://exquery.github.io/exquery/exquery-restxq-specification/restxq-1.0-specification.html">RESTXQ</a> for MarkLogic</p>
+</li>
+<li>
+<p>genetic algorithm - I will continue doing the work I started many moons ago &#8230;&#8203; maybe this year will result in released 'bits' but as ever no promises made.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>and whatever else may distract me.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_xquery_is_my_language_of_choice">XQuery is my language of choice</h3>
+<div class="paragraph">
+<p>At my <a href="http://developer.marklogic.com">day job</a> I sling XQuery all day, every day - I feel very lucky to be able to work on something that also happens to be one of my passions and I hope that remains the same for many years to come.</p>
+</div>
+<div class="paragraph">
+<p>Latest versions of the language (<a href="https://www.w3.org/TR/xquery-31/">XQuery 3.1</a>) make me even more excited for its future (maps/arrays, annotations and even the humble arrow operator).</p>
+</div>
+<div class="paragraph">
+<p>I hope others will not begrudge me for 'looking over the fence' at other programming languages. Like many programmers, I&#8217;ve always worked in a few languages, here&#8217;s my list of languages that I am uptodate on (though not an expert!): XQuery, Java, python, c, javascript, emacs lisp and Perl(6). Sometimes I&#8217;ve had to learn them out of some short term need, sometimes my curiosity (or boredom) inspires me to learn more.</p>
+</div>
+<div class="paragraph">
+<p>For example, a few months ago when using <a href="https://www.docker.com/">docker</a> I wondered why things were so fast in a certain situation; docker is written in Go and I learned that maps in Go are not thread safe (!) which was answer enough for this newbie but asking that question led me to the definition of   <a href="https://gobyexample.com/goroutines">goroutines</a> which are interesting grist for the concurrency mill. This kind of 'thigh bone is connected to the leg bone' research is probably not the most efficient, but motivating nevertheless.</p>
+</div>
+<div class="paragraph">
+<p>So while I think its important to avoid becoming a <a href="http://blog.codinghorror.com/the-magpie-developer/">magpie developer</a> that doesn&#8217;t mean we should avoid regular small investigations into other languages. Many of the good things that have happened to me in programming often were preceded by 'little investigations' though its important to learn how to timebox your efforts!</p>
+</div>
+<div class="paragraph">
+<p>Lastly, learning idioms or better ways to do something in one language often help me become a better programmer in another.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_avoiding_sentimentality_in_software">Avoiding sentimentality in software</h3>
+<div class="paragraph">
+<p>If you work long enough in the software industry eventually you will <a href="https://en.wikipedia.org/wiki/Measuring_programming_language_popularity">experience</a> the thrill of your favourite language coming into favour as well as the despair when it falls out.</p>
+</div>
+<div class="paragraph">
+<p>Doing a regular moral inventory of what open software projects I work on allows me to gauge sentimality - holding onto 'precious' only because of previous commitment sunk can be a sign that you are in an evolutionary 'dead end'.</p>
+</div>
+<div class="paragraph">
+<p>I do not think XQuery is a waste of time, I do believe we are entering an era of 'boutique' languages and we all learn a lot more DSL&#8217;s to get work done. XQuery represents a sweet spot in terms of data model, functional programming and good fun.</p>
+</div>
+<div class="paragraph">
+<p>We should embrace diversity in programming and shudder at a future which espouses a single paradigm for expression.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="__xquery_is_in_good_hands">@XQuery is in good hands</h3>
+<div class="paragraph">
+<p><a href="http://twitter.com/joewiz">@joewiz</a> stewardship of <a href="http://twitter.com/XQuery">@XQuery</a> has far surpassed my paltry efforts and he does a great job at being focused on xquery.</p>
+</div>
+<div class="paragraph">
+<p>I would heartedly recommend you follow <a href="http://twitter.com/XQuery">@XQuery</a> and contribute in the discussion.</p>
+</div>
+</div>]]></description><link>http://magpie.engineer/2016/01/23/Giving-up-XQuery-but-not-on-XQuery.html</link><guid isPermaLink="true">http://magpie.engineer/2016/01/23/Giving-up-XQuery-but-not-on-XQuery.html</guid><dc:creator><![CDATA[James Fuller]]></dc:creator><pubDate>Sat, 23 Jan 2016 00:00:00 GMT</pubDate></item></channel></rss>
