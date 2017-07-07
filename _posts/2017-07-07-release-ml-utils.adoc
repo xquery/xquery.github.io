@@ -1,5 +1,14 @@
 = release ml-utils
 
-small set of command line utilities for working with MarkLogic
+Released a small collection of modest command line utilities for working with MarkLogic.
+
+ml-log: retrieve server logs
+ml-hist: retrieve resource metrics (requires gnuplot for graphing)
+ml-status: retrieve resource status
+ml-xq: evaluate xquery
+ml-js: evaluate javascript
+ml-load: load data
+ml-config: manage MarkLogic
+ml-browse: browse resources
 
 https://github.com/xquery/ml-utils
