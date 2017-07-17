@@ -1,0 +1,14 @@
+= The Law of Software Release
+
+The 'Law of Software Release' asserts that any major software release will immediately be followed by a minor release within 24-48 hours.
+
+A kind of https://en.wikipedia.org/wiki/Tachypsychia[tunnel vision] occurs during software release where the tension between 'get it out the door' overcomes 'doing it right'. 
+
+For my own software dabblings, I tend to delay public announcement by a few days after actual release of 'bits' which seems to cover off most of the obvious issues.   
+
+
+
+
+
+
+
