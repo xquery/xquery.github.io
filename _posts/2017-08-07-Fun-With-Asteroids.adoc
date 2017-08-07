@@ -4,7 +4,7 @@ Often I get the urge to dive into a dataset and just start having fun. That was 
 
 I wanted to try out some of the newer features of opencv (http://opencv.org) combined with modest genetic algorithm approaches in the detection of moving objects wihin SDSS images. 
 
-SDSS uses ccd (charge coupled device) camaras for imaging the night sky. The red, green, blue channels are scanned slightly offset in time, which means a moving object can be detected by easiy observed.
+SDSS uses ccd (charge coupled device) camaras for imaging the night sky. The red, green, blue channels are scanned slightly offset in time, which means a moving object can easily be observed.
 
 A few stolen snatches of time and I have come up with a first naive attempt:
 
