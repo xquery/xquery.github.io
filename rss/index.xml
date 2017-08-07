@@ -1,4 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Magpie Engineer]]></title><description><![CDATA[My own thoughts on fun with Data, MarkLogic, XQuery, fp, emacs, opencv, unix and anything shiny that catches my eye ...]]></description><link>http://magpie.engineer</link><image><url>images/magpie.jpg</url><title>Magpie Engineer</title><link>http://magpie.engineer</link></image><generator>RSS for Node</generator><lastBuildDate>Mon, 17 Jul 2017 10:32:14 GMT</lastBuildDate><atom:link href="http://magpie.engineer/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[The Law of Software Release]]></title><description><![CDATA[<div class="paragraph">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Magpie Engineer]]></title><description><![CDATA[My own thoughts on fun with Data, MarkLogic, XQuery, fp, emacs, opencv, unix and anything shiny that catches my eye ...]]></description><link>http://magpie.engineer</link><image><url>images/magpie.jpg</url><title>Magpie Engineer</title><link>http://magpie.engineer</link></image><generator>RSS for Node</generator><lastBuildDate>Mon, 07 Aug 2017 08:06:10 GMT</lastBuildDate><atom:link href="http://magpie.engineer/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title><![CDATA[Fun With Asteroids]]></title><description><![CDATA[<div class="paragraph">
+<p>Often I get the urge to dive into a dataset and just start having fun. That was definately the case with the Sloan Digital Sky Survey (<a href="http://www.sdss.org" class="bare">http://www.sdss.org</a>).</p>
+</div>
+<div class="paragraph">
+<p>I wanted to try out some of the newer features of opencv (<a href="http://opencv.org" class="bare">http://opencv.org</a>) combined with modest genetic algorithm approaches in the detection of moving objects wihin SDSS images.</p>
+</div>
+<div class="paragraph">
+<p>SDSS uses ccd (charge coupled device) camaras for imaging the night sky. The red, green, blue channels are scanned slightly offset in time, which means a moving object can be detected by easiy observed.</p>
+</div>
+<div class="paragraph">
+<p>A few stolen snatches of time and I have come up with a first naive attempt:</p>
+</div>
+<div class="paragraph">
+<p><a href="https://github.com/xquery/sdss_asteroid_detect" class="bare">https://github.com/xquery/sdss_asteroid_detect</a></p>
+</div>
+<div class="paragraph">
+<p>Which will mark out a potential asteroid with a circle. For now I am dumping the candidates to an Amazon S3 bucket
+<a href="http://sdss.asteroid.detect.s3-website-us-east-1.amazonaws.com/" class="bare">http://sdss.asteroid.detect.s3-website-us-east-1.amazonaws.com/</a></p>
+</div>
+<div class="paragraph">
+<p>I am now working on a more sophisticated approach &#8230;&#8203; which will take care of those pesky false positives and attempt to rank an image quality first before I run detection algorithm. My initial investigations were to familiarise myself with the dataset. I like working with significant subset of a dataset before I start enshrining design decisions.</p>
+</div>
+<div class="paragraph">
+<p>Will keep you posted &#8230;&#8203;</p>
+</div>]]></description><link>http://magpie.engineer/2017/08/07/Fun-With-Asteroids.html</link><guid isPermaLink="true">http://magpie.engineer/2017/08/07/Fun-With-Asteroids.html</guid><dc:creator><![CDATA[James Fuller]]></dc:creator><pubDate>Mon, 07 Aug 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[The Law of Software Release]]></title><description><![CDATA[<div class="paragraph">
 <p>The 'Law of Software Release' asserts that any major software release will immediately be followed by a minor release within 24-48 hours.</p>
 </div>
 <div class="paragraph">
