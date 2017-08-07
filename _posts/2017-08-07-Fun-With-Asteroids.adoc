@@ -1,0 +1,18 @@
+= Fun With Asteroids
+
+Often I get the urge to dive into a dataset and just start having fun. That was definately the case with the Sloan Digital Sky Survey (http://www.sdss.org).
+
+I wanted to try out some of the newer features of opencv (http://opencv.org) combined with modest genetic algorithm approaches in the detection of moving objects wihin SDSS images. 
+
+SDSS uses ccd (charge coupled device) camaras for imaging the night sky. The red, green, blue channels are scanned slightly offset in time, which means a moving object can be detected by easiy observed.
+
+A few stolen snatches of time and I have come up with a first naive attempt:
+
+https://github.com/xquery/sdss_asteroid_detect
+
+Which will mark out a potential asteroid with a circle. For now I am dumping the candidates to an Amazon S3 bucket
+http://sdss.asteroid.detect.s3-website-us-east-1.amazonaws.com/
+
+I am now working on a more sophisticated approach ... which will take care of those pesky false positives and attempt to rank an image quality first before I run detection algorithm. My initial investigations were to familiarise myself with the dataset. I like working with significant subset of a dataset before I start enshrining design decisions. 
+
+Will keep you posted ...
